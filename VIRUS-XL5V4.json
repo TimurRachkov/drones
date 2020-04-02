@@ -2298,7 +2298,7 @@
 		"pitch": 0,
 		"yaw": 0
 	},
-	"CRAFT_NAME": "XL5V4",
+	"CRAFT_NAME": "VIRUS-XL5V4",
 	"DISPLAY_NAME": "JOE PILOT",
 	"MIXER_CONFIG": {
 		"mixer": 3,
@@ -2566,7 +2566,7 @@
 	"ARMING_CONFIG": {
 		"auto_disarm_delay": 5,
 		"disarm_kill_switch": 0,
-		"small_angle": 25
+		"small_angle": 180
 	},
 	"MOTOR_3D_CONFIG": {
 		"deadband3d_low": 1406,
