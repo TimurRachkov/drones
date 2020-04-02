@@ -39,20 +39,20 @@
 				[]
 			],
 			"RC": {
-				"RC_RATE": 1.75,
-				"RC_EXPO": 0.22,
+				"RC_RATE": 1,
+				"RC_EXPO": 0.2,
 				"roll_pitch_rate": 0,
-				"roll_rate": 0.7,
-				"pitch_rate": 0.7,
-				"yaw_rate": 0.65,
+				"roll_rate": 0.78,
+				"pitch_rate": 0.78,
+				"yaw_rate": 0.78,
 				"dynamic_THR_PID": 0.5,
 				"throttle_MID": 0.5,
 				"throttle_EXPO": 0,
 				"dynamic_THR_breakpoint": 1500,
-				"RC_YAW_EXPO": 0.1,
-				"rcYawRate": 1.5,
-				"rcPitchRate": 1.75,
-				"RC_PITCH_EXPO": 0.22,
+				"RC_YAW_EXPO": 0.2,
+				"rcYawRate": 1,
+				"rcPitchRate": 1,
+				"RC_PITCH_EXPO": 0.2,
 				"throttleLimitType": 0,
 				"throttleLimitPercent": 100
 			},
@@ -635,20 +635,20 @@
 				[]
 			],
 			"RC": {
-				"RC_RATE": 1.75,
-				"RC_EXPO": 0.22,
+				"RC_RATE": 1,
+				"RC_EXPO": 0.2,
 				"roll_pitch_rate": 0,
-				"roll_rate": 0.7,
-				"pitch_rate": 0.7,
-				"yaw_rate": 0.65,
+				"roll_rate": 0.78,
+				"pitch_rate": 0.78,
+				"yaw_rate": 0.78,
 				"dynamic_THR_PID": 0.5,
 				"throttle_MID": 0.5,
 				"throttle_EXPO": 0,
 				"dynamic_THR_breakpoint": 1500,
-				"RC_YAW_EXPO": 0.1,
-				"rcYawRate": 1.5,
-				"rcPitchRate": 1.75,
-				"RC_PITCH_EXPO": 0.22,
+				"RC_YAW_EXPO": 0.2,
+				"rcYawRate": 1,
+				"rcPitchRate": 1,
+				"RC_PITCH_EXPO": 0.2,
 				"throttleLimitType": 0,
 				"throttleLimitPercent": 100
 			},
@@ -1231,20 +1231,20 @@
 				[]
 			],
 			"RC": {
-				"RC_RATE": 1.75,
-				"RC_EXPO": 0.22,
+				"RC_RATE": 1,
+				"RC_EXPO": 0.2,
 				"roll_pitch_rate": 0,
-				"roll_rate": 0.7,
-				"pitch_rate": 0.7,
-				"yaw_rate": 0.65,
+				"roll_rate": 0.78,
+				"pitch_rate": 0.78,
+				"yaw_rate": 0.78,
 				"dynamic_THR_PID": 0.5,
 				"throttle_MID": 0.5,
 				"throttle_EXPO": 0,
 				"dynamic_THR_breakpoint": 1500,
-				"RC_YAW_EXPO": 0.1,
-				"rcYawRate": 1.5,
-				"rcPitchRate": 1.75,
-				"RC_PITCH_EXPO": 0.22,
+				"RC_YAW_EXPO": 0.2,
+				"rcYawRate": 1,
+				"rcPitchRate": 1,
+				"RC_PITCH_EXPO": 0.2,
 				"throttleLimitType": 0,
 				"throttleLimitPercent": 100
 			},
@@ -2610,7 +2610,7 @@
 		"failsafe_throttle": 1000,
 		"failsafe_switch_mode": 0,
 		"failsafe_throttle_low_delay": 100,
-		"failsafe_procedure": 1
+		"failsafe_procedure": 0
 	},
 	"RXFAIL_CONFIG": [
 		{
@@ -2687,7 +2687,7 @@
 		}
 	],
 	"RSSI_CONFIG": {
-		"channel": 0
+		"channel": 12
 	},
 	"FEATURE_CONFIG": {
 		"features": {
