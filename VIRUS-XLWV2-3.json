@@ -10,16 +10,29 @@
 				[
 					55,
 					60,
-					25
+					25,
+					60,
+					0.98,
+					0.8,
+					0,
+					0
 				],
 				[
 					60,
 					65,
-					27
+					27,
+					60,
+					0.98,
+					0.8,
+					0
 				],
 				[
 					65,
 					45,
+					0,
+					60,
+					1.18,
+					0.8,
 					0
 				],
 				[
@@ -44,13 +57,13 @@
 				"roll_pitch_rate": 0,
 				"roll_rate": 0.8,
 				"pitch_rate": 0.8,
-				"yaw_rate": 0.83,
+				"yaw_rate": 0.8,
 				"dynamic_THR_PID": 0.1,
 				"throttle_MID": 0.5,
 				"throttle_EXPO": 0,
 				"dynamic_THR_breakpoint": 1650,
 				"RC_YAW_EXPO": 0,
-				"rcYawRate": 1,
+				"rcYawRate": 1.18,
 				"rcPitchRate": 0.98,
 				"RC_PITCH_EXPO": 0
 			},
@@ -454,16 +467,29 @@
 				[
 					46,
 					45,
-					25
+					25,
+					60,
+					0.98,
+					0.8,
+					0,
+					0
 				],
 				[
 					50,
 					50,
-					27
+					27,
+					60,
+					0.98,
+					0.8,
+					0
 				],
 				[
 					65,
 					45,
+					0,
+					60,
+					1.18,
+					0.8,
 					0
 				],
 				[
@@ -488,13 +514,13 @@
 				"roll_pitch_rate": 0,
 				"roll_rate": 0.8,
 				"pitch_rate": 0.8,
-				"yaw_rate": 0.83,
+				"yaw_rate": 0.8,
 				"dynamic_THR_PID": 0.1,
 				"throttle_MID": 0.5,
 				"throttle_EXPO": 0,
 				"dynamic_THR_breakpoint": 1650,
 				"RC_YAW_EXPO": 0,
-				"rcYawRate": 1,
+				"rcYawRate": 1.18,
 				"rcPitchRate": 0.98,
 				"RC_PITCH_EXPO": 0
 			},
@@ -898,16 +924,29 @@
 				[
 					46,
 					45,
-					25
+					25,
+					60,
+					0.98,
+					0.8,
+					0,
+					0
 				],
 				[
 					50,
 					50,
-					27
+					27,
+					60,
+					0.98,
+					0.8,
+					0
 				],
 				[
 					65,
 					45,
+					0,
+					60,
+					1.18,
+					0.8,
 					0
 				],
 				[
@@ -932,13 +971,13 @@
 				"roll_pitch_rate": 0,
 				"roll_rate": 0.8,
 				"pitch_rate": 0.8,
-				"yaw_rate": 0.83,
+				"yaw_rate": 0.8,
 				"dynamic_THR_PID": 0.1,
 				"throttle_MID": 0.5,
 				"throttle_EXPO": 0,
 				"dynamic_THR_breakpoint": 1650,
 				"RC_YAW_EXPO": 0,
-				"rcYawRate": 1,
+				"rcYawRate": 1.18,
 				"rcPitchRate": 0.98,
 				"RC_PITCH_EXPO": 0
 			},
