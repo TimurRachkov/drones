@@ -162,8 +162,8 @@
 					"id": 28,
 					"auxChannelIndex": 1,
 					"range": {
-						"start": 1500,
-						"end": 2100
+						"start": 900,
+						"end": 1500
 					}
 				},
 				{
@@ -606,8 +606,8 @@
 					"id": 28,
 					"auxChannelIndex": 1,
 					"range": {
-						"start": 1500,
-						"end": 2100
+						"start": 900,
+						"end": 1500
 					}
 				},
 				{
@@ -1050,8 +1050,8 @@
 					"id": 28,
 					"auxChannelIndex": 1,
 					"range": {
-						"start": 1500,
-						"end": 2100
+						"start": 900,
+						"end": 1500
 					}
 				},
 				{
