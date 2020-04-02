@@ -130,32 +130,32 @@
 					"id": 0,
 					"auxChannelIndex": 0,
 					"range": {
-						"start": 1500,
-						"end": 2100
+						"start": 900,
+						"end": 1500
 					}
 				},
 				{
 					"id": 1,
 					"auxChannelIndex": 1,
 					"range": {
-						"start": 900,
-						"end": 1500
+						"start": 1500,
+						"end": 2100
 					}
 				},
 				{
 					"id": 27,
-					"auxChannelIndex": 3,
+					"auxChannelIndex": 2,
 					"range": {
-						"start": 1300,
-						"end": 1700
+						"start": 1700,
+						"end": 2100
 					}
 				},
 				{
 					"id": 13,
 					"auxChannelIndex": 3,
 					"range": {
-						"start": 1700,
-						"end": 2100
+						"start": 1300,
+						"end": 1700
 					}
 				},
 				{
@@ -170,8 +170,8 @@
 					"id": 35,
 					"auxChannelIndex": 2,
 					"range": {
-						"start": 1500,
-						"end": 2100
+						"start": 1300,
+						"end": 1700
 					}
 				},
 				{
@@ -574,32 +574,32 @@
 					"id": 0,
 					"auxChannelIndex": 0,
 					"range": {
-						"start": 1500,
-						"end": 2100
+						"start": 900,
+						"end": 1500
 					}
 				},
 				{
 					"id": 1,
 					"auxChannelIndex": 1,
 					"range": {
-						"start": 900,
-						"end": 1500
+						"start": 1500,
+						"end": 2100
 					}
 				},
 				{
 					"id": 27,
-					"auxChannelIndex": 3,
+					"auxChannelIndex": 2,
 					"range": {
-						"start": 1300,
-						"end": 1700
+						"start": 1700,
+						"end": 2100
 					}
 				},
 				{
 					"id": 13,
 					"auxChannelIndex": 3,
 					"range": {
-						"start": 1700,
-						"end": 2100
+						"start": 1300,
+						"end": 1700
 					}
 				},
 				{
@@ -614,8 +614,8 @@
 					"id": 35,
 					"auxChannelIndex": 2,
 					"range": {
-						"start": 1500,
-						"end": 2100
+						"start": 1300,
+						"end": 1700
 					}
 				},
 				{
@@ -1018,32 +1018,32 @@
 					"id": 0,
 					"auxChannelIndex": 0,
 					"range": {
-						"start": 1500,
-						"end": 2100
+						"start": 900,
+						"end": 1500
 					}
 				},
 				{
 					"id": 1,
 					"auxChannelIndex": 1,
 					"range": {
-						"start": 900,
-						"end": 1500
+						"start": 1500,
+						"end": 2100
 					}
 				},
 				{
 					"id": 27,
-					"auxChannelIndex": 3,
+					"auxChannelIndex": 2,
 					"range": {
-						"start": 1300,
-						"end": 1700
+						"start": 1700,
+						"end": 2100
 					}
 				},
 				{
 					"id": 13,
 					"auxChannelIndex": 3,
 					"range": {
-						"start": 1700,
-						"end": 2100
+						"start": 1300,
+						"end": 1700
 					}
 				},
 				{
@@ -1058,8 +1058,8 @@
 					"id": 35,
 					"auxChannelIndex": 2,
 					"range": {
-						"start": 1500,
-						"end": 2100
+						"start": 1300,
+						"end": 1700
 					}
 				},
 				{
@@ -2320,8 +2320,7 @@
 				}
 			],
 			"_featureMask": 805568520,
-			"_analyticsChanges": {},
-			"_featureChanges": {}
+			"_analyticsChanges": {}
 		}
 	},
 	"MOTOR_CONFIG": {
