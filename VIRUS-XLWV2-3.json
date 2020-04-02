@@ -39,19 +39,19 @@
 				[]
 			],
 			"RC": {
-				"RC_RATE": 0.98,
+				"RC_RATE": 1,
 				"RC_EXPO": 0,
 				"roll_pitch_rate": 0,
-				"roll_rate": 0.8,
-				"pitch_rate": 0.8,
-				"yaw_rate": 0.8,
+				"roll_rate": 0.7,
+				"pitch_rate": 0.7,
+				"yaw_rate": 0.7,
 				"dynamic_THR_PID": 0.1,
 				"throttle_MID": 0.5,
 				"throttle_EXPO": 0,
 				"dynamic_THR_breakpoint": 1650,
 				"RC_YAW_EXPO": 0,
-				"rcYawRate": 1.18,
-				"rcPitchRate": 0.98,
+				"rcYawRate": 1.2,
+				"rcPitchRate": 1,
 				"RC_PITCH_EXPO": 0
 			},
 			"AccTrim": [
@@ -290,13 +290,13 @@
 			"AdjustmentRanges": [
 				{
 					"slotIndex": 0,
-					"auxChannelIndex": 0,
+					"auxChannelIndex": 5,
 					"range": {
 						"start": 900,
-						"end": 900
+						"end": 2100
 					},
-					"adjustmentFunction": 0,
-					"auxSwitchChannelIndex": 0
+					"adjustmentFunction": 12,
+					"auxSwitchChannelIndex": 5
 				},
 				{
 					"slotIndex": 0,
@@ -483,19 +483,19 @@
 				[]
 			],
 			"RC": {
-				"RC_RATE": 0.98,
+				"RC_RATE": 1,
 				"RC_EXPO": 0,
 				"roll_pitch_rate": 0,
-				"roll_rate": 0.8,
-				"pitch_rate": 0.8,
-				"yaw_rate": 0.8,
+				"roll_rate": 0.7,
+				"pitch_rate": 0.7,
+				"yaw_rate": 0.7,
 				"dynamic_THR_PID": 0.1,
 				"throttle_MID": 0.5,
 				"throttle_EXPO": 0,
 				"dynamic_THR_breakpoint": 1650,
 				"RC_YAW_EXPO": 0,
-				"rcYawRate": 1.18,
-				"rcPitchRate": 0.98,
+				"rcYawRate": 1.2,
+				"rcPitchRate": 1,
 				"RC_PITCH_EXPO": 0
 			},
 			"AccTrim": [
@@ -734,13 +734,13 @@
 			"AdjustmentRanges": [
 				{
 					"slotIndex": 0,
-					"auxChannelIndex": 0,
+					"auxChannelIndex": 5,
 					"range": {
 						"start": 900,
-						"end": 900
+						"end": 2100
 					},
-					"adjustmentFunction": 0,
-					"auxSwitchChannelIndex": 0
+					"adjustmentFunction": 12,
+					"auxSwitchChannelIndex": 5
 				},
 				{
 					"slotIndex": 0,
@@ -927,19 +927,19 @@
 				[]
 			],
 			"RC": {
-				"RC_RATE": 0.98,
+				"RC_RATE": 1,
 				"RC_EXPO": 0,
 				"roll_pitch_rate": 0,
-				"roll_rate": 0.8,
-				"pitch_rate": 0.8,
-				"yaw_rate": 0.8,
+				"roll_rate": 0.7,
+				"pitch_rate": 0.7,
+				"yaw_rate": 0.7,
 				"dynamic_THR_PID": 0.1,
 				"throttle_MID": 0.5,
 				"throttle_EXPO": 0,
 				"dynamic_THR_breakpoint": 1650,
 				"RC_YAW_EXPO": 0,
-				"rcYawRate": 1.18,
-				"rcPitchRate": 0.98,
+				"rcYawRate": 1.2,
+				"rcPitchRate": 1,
 				"RC_PITCH_EXPO": 0
 			},
 			"AccTrim": [
@@ -1178,13 +1178,13 @@
 			"AdjustmentRanges": [
 				{
 					"slotIndex": 0,
-					"auxChannelIndex": 0,
+					"auxChannelIndex": 5,
 					"range": {
 						"start": 900,
-						"end": 900
+						"end": 2100
 					},
-					"adjustmentFunction": 0,
-					"auxSwitchChannelIndex": 0
+					"adjustmentFunction": 12,
+					"auxSwitchChannelIndex": 5
 				},
 				{
 					"slotIndex": 0,
