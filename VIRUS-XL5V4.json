@@ -140,64 +140,64 @@
 					"id": 1,
 					"auxChannelIndex": 1,
 					"range": {
-						"start": 900,
+						"start": 1500,
 						"end": 2100
 					}
 				},
 				{
-					"id": 0,
-					"auxChannelIndex": 0,
+					"id": 27,
+					"auxChannelIndex": 2,
 					"range": {
-						"start": 900,
-						"end": 900
+						"start": 1700,
+						"end": 2100
 					}
 				},
 				{
-					"id": 0,
-					"auxChannelIndex": 0,
+					"id": 13,
+					"auxChannelIndex": 3,
 					"range": {
-						"start": 900,
-						"end": 900
+						"start": 1300,
+						"end": 1700
 					}
 				},
 				{
-					"id": 0,
-					"auxChannelIndex": 0,
+					"id": 19,
+					"auxChannelIndex": 4,
 					"range": {
-						"start": 900,
-						"end": 900
+						"start": 1700,
+						"end": 2100
 					}
 				},
 				{
-					"id": 0,
-					"auxChannelIndex": 0,
+					"id": 28,
+					"auxChannelIndex": 1,
 					"range": {
 						"start": 900,
-						"end": 900
+						"end": 1500
 					}
 				},
 				{
-					"id": 0,
-					"auxChannelIndex": 0,
+					"id": 30,
+					"auxChannelIndex": 4,
 					"range": {
-						"start": 900,
-						"end": 900
+						"start": 1300,
+						"end": 1700
 					}
 				},
 				{
-					"id": 0,
-					"auxChannelIndex": 0,
+					"id": 35,
+					"auxChannelIndex": 3,
 					"range": {
-						"start": 900,
-						"end": 900
+						"start": 1700,
+						"end": 2100
 					}
 				},
 				{
-					"id": 0,
-					"auxChannelIndex": 0,
+					"id": 39,
+					"auxChannelIndex": 2,
 					"range": {
-						"start": 900,
-						"end": 900
+						"start": 1300,
+						"end": 1700
 					}
 				},
 				{
@@ -292,13 +292,13 @@
 			"AdjustmentRanges": [
 				{
 					"slotIndex": 0,
-					"auxChannelIndex": 0,
+					"auxChannelIndex": 5,
 					"range": {
 						"start": 900,
-						"end": 900
+						"end": 2100
 					},
-					"adjustmentFunction": 0,
-					"auxSwitchChannelIndex": 0
+					"adjustmentFunction": 12,
+					"auxSwitchChannelIndex": 5
 				},
 				{
 					"slotIndex": 0,
@@ -736,64 +736,64 @@
 					"id": 1,
 					"auxChannelIndex": 1,
 					"range": {
-						"start": 900,
+						"start": 1500,
 						"end": 2100
 					}
 				},
 				{
-					"id": 0,
-					"auxChannelIndex": 0,
+					"id": 27,
+					"auxChannelIndex": 2,
 					"range": {
-						"start": 900,
-						"end": 900
+						"start": 1700,
+						"end": 2100
 					}
 				},
 				{
-					"id": 0,
-					"auxChannelIndex": 0,
+					"id": 13,
+					"auxChannelIndex": 3,
 					"range": {
-						"start": 900,
-						"end": 900
+						"start": 1300,
+						"end": 1700
 					}
 				},
 				{
-					"id": 0,
-					"auxChannelIndex": 0,
+					"id": 19,
+					"auxChannelIndex": 4,
 					"range": {
-						"start": 900,
-						"end": 900
+						"start": 1700,
+						"end": 2100
 					}
 				},
 				{
-					"id": 0,
-					"auxChannelIndex": 0,
+					"id": 28,
+					"auxChannelIndex": 1,
 					"range": {
 						"start": 900,
-						"end": 900
+						"end": 1500
 					}
 				},
 				{
-					"id": 0,
-					"auxChannelIndex": 0,
+					"id": 30,
+					"auxChannelIndex": 4,
 					"range": {
-						"start": 900,
-						"end": 900
+						"start": 1300,
+						"end": 1700
 					}
 				},
 				{
-					"id": 0,
-					"auxChannelIndex": 0,
+					"id": 35,
+					"auxChannelIndex": 3,
 					"range": {
-						"start": 900,
-						"end": 900
+						"start": 1700,
+						"end": 2100
 					}
 				},
 				{
-					"id": 0,
-					"auxChannelIndex": 0,
+					"id": 39,
+					"auxChannelIndex": 2,
 					"range": {
-						"start": 900,
-						"end": 900
+						"start": 1300,
+						"end": 1700
 					}
 				},
 				{
@@ -888,13 +888,13 @@
 			"AdjustmentRanges": [
 				{
 					"slotIndex": 0,
-					"auxChannelIndex": 0,
+					"auxChannelIndex": 5,
 					"range": {
 						"start": 900,
-						"end": 900
+						"end": 2100
 					},
-					"adjustmentFunction": 0,
-					"auxSwitchChannelIndex": 0
+					"adjustmentFunction": 12,
+					"auxSwitchChannelIndex": 5
 				},
 				{
 					"slotIndex": 0,
@@ -1332,64 +1332,64 @@
 					"id": 1,
 					"auxChannelIndex": 1,
 					"range": {
-						"start": 900,
+						"start": 1500,
 						"end": 2100
 					}
 				},
 				{
-					"id": 0,
-					"auxChannelIndex": 0,
+					"id": 27,
+					"auxChannelIndex": 2,
 					"range": {
-						"start": 900,
-						"end": 900
+						"start": 1700,
+						"end": 2100
 					}
 				},
 				{
-					"id": 0,
-					"auxChannelIndex": 0,
+					"id": 13,
+					"auxChannelIndex": 3,
 					"range": {
-						"start": 900,
-						"end": 900
+						"start": 1300,
+						"end": 1700
 					}
 				},
 				{
-					"id": 0,
-					"auxChannelIndex": 0,
+					"id": 19,
+					"auxChannelIndex": 4,
 					"range": {
-						"start": 900,
-						"end": 900
+						"start": 1700,
+						"end": 2100
 					}
 				},
 				{
-					"id": 0,
-					"auxChannelIndex": 0,
+					"id": 28,
+					"auxChannelIndex": 1,
 					"range": {
 						"start": 900,
-						"end": 900
+						"end": 1500
 					}
 				},
 				{
-					"id": 0,
-					"auxChannelIndex": 0,
+					"id": 30,
+					"auxChannelIndex": 4,
 					"range": {
-						"start": 900,
-						"end": 900
+						"start": 1300,
+						"end": 1700
 					}
 				},
 				{
-					"id": 0,
-					"auxChannelIndex": 0,
+					"id": 35,
+					"auxChannelIndex": 3,
 					"range": {
-						"start": 900,
-						"end": 900
+						"start": 1700,
+						"end": 2100
 					}
 				},
 				{
-					"id": 0,
-					"auxChannelIndex": 0,
+					"id": 39,
+					"auxChannelIndex": 2,
 					"range": {
-						"start": 900,
-						"end": 900
+						"start": 1300,
+						"end": 1700
 					}
 				},
 				{
@@ -1484,13 +1484,13 @@
 			"AdjustmentRanges": [
 				{
 					"slotIndex": 0,
-					"auxChannelIndex": 0,
+					"auxChannelIndex": 5,
 					"range": {
 						"start": 900,
-						"end": 900
+						"end": 2100
 					},
-					"adjustmentFunction": 0,
-					"auxSwitchChannelIndex": 0
+					"adjustmentFunction": 12,
+					"auxSwitchChannelIndex": 5
 				},
 				{
 					"slotIndex": 0,
@@ -1792,10 +1792,10 @@
 		}
 	],
 	"RCMAP": [
-		1,
-		2,
-		3,
 		0,
+		1,
+		3,
+		2,
 		4,
 		5,
 		6,
@@ -2597,7 +2597,7 @@
 		"rxSpiProtocol": 0,
 		"rxSpiId": 0,
 		"rxSpiRfChannelCount": 0,
-		"fpvCamAngleDegrees": 0,
+		"fpvCamAngleDegrees": 20,
 		"rcSmoothingType": 1,
 		"rcSmoothingInputCutoff": 0,
 		"rcSmoothingDerivativeCutoff": 0,
@@ -2985,37 +2985,37 @@
 			"linkedTo": 0
 		},
 		{
-			"id": 0,
+			"id": 27,
 			"modeLogic": 0,
 			"linkedTo": 0
 		},
 		{
-			"id": 0,
+			"id": 13,
 			"modeLogic": 0,
 			"linkedTo": 0
 		},
 		{
-			"id": 0,
+			"id": 19,
 			"modeLogic": 0,
 			"linkedTo": 0
 		},
 		{
-			"id": 0,
+			"id": 28,
 			"modeLogic": 0,
 			"linkedTo": 0
 		},
 		{
-			"id": 0,
+			"id": 30,
 			"modeLogic": 0,
 			"linkedTo": 0
 		},
 		{
-			"id": 0,
+			"id": 35,
 			"modeLogic": 0,
 			"linkedTo": 0
 		},
 		{
-			"id": 0,
+			"id": 39,
 			"modeLogic": 0,
 			"linkedTo": 0
 		},
