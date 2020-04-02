@@ -2108,11 +2108,11 @@
 	},
 	"FAILSAFE_CONFIG": {
 		"failsafe_delay": 4,
-		"failsafe_off_delay": 80,
-		"failsafe_throttle": 1250,
+		"failsafe_off_delay": 10,
+		"failsafe_throttle": 1000,
 		"failsafe_switch_mode": 0,
 		"failsafe_throttle_low_delay": 100,
-		"failsafe_procedure": 0
+		"failsafe_procedure": 1
 	},
 	"RXFAIL_CONFIG": [
 		{
