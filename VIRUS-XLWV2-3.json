@@ -1800,7 +1800,7 @@
 		"pitch": 0,
 		"yaw": 0
 	},
-	"CRAFT_NAME": "VIRUS",
+	"CRAFT_NAME": "VIRUS-XLWV2-3",
 	"DISPLAY_NAME": "JOE PILOT",
 	"MIXER_CONFIG": {
 		"mixer": 3,
@@ -2108,11 +2108,11 @@
 	},
 	"FAILSAFE_CONFIG": {
 		"failsafe_delay": 4,
-		"failsafe_off_delay": 10,
-		"failsafe_throttle": 1000,
+		"failsafe_off_delay": 80,
+		"failsafe_throttle": 1250,
 		"failsafe_switch_mode": 0,
 		"failsafe_throttle_low_delay": 100,
-		"failsafe_procedure": 1
+		"failsafe_procedure": 0
 	},
 	"RXFAIL_CONFIG": [
 		{
