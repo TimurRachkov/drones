@@ -50,7 +50,7 @@
 				"throttle_EXPO": 0,
 				"dynamic_THR_breakpoint": 1650,
 				"RC_YAW_EXPO": 0.6,
-				"rcYawRate": 1.2,
+				"rcYawRate": 1,
 				"rcPitchRate": 1,
 				"RC_PITCH_EXPO": 0.6
 			},
@@ -494,7 +494,7 @@
 				"throttle_EXPO": 0,
 				"dynamic_THR_breakpoint": 1650,
 				"RC_YAW_EXPO": 0.6,
-				"rcYawRate": 1.2,
+				"rcYawRate": 1,
 				"rcPitchRate": 1,
 				"RC_PITCH_EXPO": 0.6
 			},
@@ -938,7 +938,7 @@
 				"throttle_EXPO": 0,
 				"dynamic_THR_breakpoint": 1650,
 				"RC_YAW_EXPO": 0.6,
-				"rcYawRate": 1.2,
+				"rcYawRate": 1,
 				"rcPitchRate": 1,
 				"RC_PITCH_EXPO": 0.6
 			},
