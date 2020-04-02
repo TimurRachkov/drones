@@ -39,19 +39,19 @@
 				[]
 			],
 			"RC": {
-				"RC_RATE": 0.68,
+				"RC_RATE": 0.98,
 				"RC_EXPO": 0,
 				"roll_pitch_rate": 0,
 				"roll_rate": 0.8,
 				"pitch_rate": 0.8,
-				"yaw_rate": 0.7,
+				"yaw_rate": 0.79,
 				"dynamic_THR_PID": 0.1,
 				"throttle_MID": 0.5,
 				"throttle_EXPO": 0,
 				"dynamic_THR_breakpoint": 1650,
 				"RC_YAW_EXPO": 0,
-				"rcYawRate": 1,
-				"rcPitchRate": 0.68,
+				"rcYawRate": 1.23,
+				"rcPitchRate": 0.98,
 				"RC_PITCH_EXPO": 0
 			},
 			"AccTrim": [
@@ -483,19 +483,19 @@
 				[]
 			],
 			"RC": {
-				"RC_RATE": 0.68,
+				"RC_RATE": 0.98,
 				"RC_EXPO": 0,
 				"roll_pitch_rate": 0,
 				"roll_rate": 0.8,
 				"pitch_rate": 0.8,
-				"yaw_rate": 0.7,
+				"yaw_rate": 0.79,
 				"dynamic_THR_PID": 0.1,
 				"throttle_MID": 0.5,
 				"throttle_EXPO": 0,
 				"dynamic_THR_breakpoint": 1650,
 				"RC_YAW_EXPO": 0,
-				"rcYawRate": 1,
-				"rcPitchRate": 0.68,
+				"rcYawRate": 1.23,
+				"rcPitchRate": 0.98,
 				"RC_PITCH_EXPO": 0
 			},
 			"AccTrim": [
@@ -927,19 +927,19 @@
 				[]
 			],
 			"RC": {
-				"RC_RATE": 0.68,
+				"RC_RATE": 0.98,
 				"RC_EXPO": 0,
 				"roll_pitch_rate": 0,
 				"roll_rate": 0.8,
 				"pitch_rate": 0.8,
-				"yaw_rate": 0.7,
+				"yaw_rate": 0.79,
 				"dynamic_THR_PID": 0.1,
 				"throttle_MID": 0.5,
 				"throttle_EXPO": 0,
 				"dynamic_THR_breakpoint": 1650,
 				"RC_YAW_EXPO": 0,
-				"rcYawRate": 1,
-				"rcPitchRate": 0.68,
+				"rcYawRate": 1.23,
+				"rcPitchRate": 0.98,
 				"RC_PITCH_EXPO": 0
 			},
 			"AccTrim": [
