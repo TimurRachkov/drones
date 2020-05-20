@@ -14,7 +14,7 @@
 					null,
 					60,
 					1,
-					0.78,
+					0.77,
 					0,
 					0.2
 				],
@@ -25,7 +25,7 @@
 					null,
 					60,
 					1,
-					0.78,
+					0.77,
 					0.2
 				],
 				[
@@ -35,7 +35,7 @@
 					null,
 					60,
 					1,
-					0.78,
+					0.77,
 					0.2
 				],
 				[
@@ -58,9 +58,9 @@
 				"RC_RATE": 1,
 				"RC_EXPO": 0.2,
 				"roll_pitch_rate": 0,
-				"roll_rate": 0.78,
-				"pitch_rate": 0.78,
-				"yaw_rate": 0.78,
+				"roll_rate": 0.77,
+				"pitch_rate": 0.77,
+				"yaw_rate": 0.77,
 				"dynamic_THR_PID": 0.1,
 				"throttle_MID": 0.5,
 				"throttle_EXPO": 0,
@@ -473,32 +473,32 @@
 				[
 					52,
 					60,
-					25,
+					28,
 					null,
 					60,
 					1,
-					0.78,
+					0.77,
 					0,
 					0.2
 				],
 				[
 					57,
 					65,
-					27,
+					30,
 					null,
 					60,
 					1,
-					0.78,
+					0.77,
 					0.2
 				],
 				[
-					65,
+					62,
 					45,
 					0,
 					null,
 					60,
 					1,
-					0.78,
+					0.77,
 					0.2
 				],
 				[
@@ -521,9 +521,9 @@
 				"RC_RATE": 1,
 				"RC_EXPO": 0.2,
 				"roll_pitch_rate": 0,
-				"roll_rate": 0.78,
-				"pitch_rate": 0.78,
-				"yaw_rate": 0.78,
+				"roll_rate": 0.77,
+				"pitch_rate": 0.77,
+				"yaw_rate": 0.77,
 				"dynamic_THR_PID": 0.1,
 				"throttle_MID": 0.5,
 				"throttle_EXPO": 0,
@@ -940,7 +940,7 @@
 					null,
 					60,
 					1,
-					0.78,
+					0.77,
 					0,
 					0.2
 				],
@@ -951,7 +951,7 @@
 					null,
 					60,
 					1,
-					0.78,
+					0.77,
 					0.2
 				],
 				[
@@ -961,7 +961,7 @@
 					null,
 					60,
 					1,
-					0.78,
+					0.77,
 					0.2
 				],
 				[
@@ -984,9 +984,9 @@
 				"RC_RATE": 1,
 				"RC_EXPO": 0.2,
 				"roll_pitch_rate": 0,
-				"roll_rate": 0.78,
-				"pitch_rate": 0.78,
-				"yaw_rate": 0.78,
+				"roll_rate": 0.77,
+				"pitch_rate": 0.77,
+				"yaw_rate": 0.77,
 				"dynamic_THR_PID": 0.1,
 				"throttle_MID": 0.5,
 				"throttle_EXPO": 0,
@@ -2388,7 +2388,8 @@
 				}
 			],
 			"_featureMask": 805569544,
-			"_analyticsChanges": {}
+			"_analyticsChanges": {},
+			"_featureChanges": {}
 		}
 	},
 	"MOTOR_CONFIG": {
