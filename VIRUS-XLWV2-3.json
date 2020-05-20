@@ -471,7 +471,7 @@
 			},
 			"PIDs": [
 				[
-					50,
+					52,
 					60,
 					25,
 					null,
@@ -482,7 +482,7 @@
 					0.2
 				],
 				[
-					55,
+					57,
 					65,
 					27,
 					null,
@@ -2388,8 +2388,7 @@
 				}
 			],
 			"_featureMask": 805569544,
-			"_analyticsChanges": {},
-			"_featureChanges": {}
+			"_analyticsChanges": {}
 		}
 	},
 	"MOTOR_CONFIG": {
