@@ -10,33 +10,17 @@
 				[
 					55,
 					60,
-					25,
-					null,
-					60,
-					1,
-					0.8,
-					0,
-					0.2
+					25
 				],
 				[
 					60,
 					65,
-					27,
-					null,
-					60,
-					1,
-					0.8,
-					0.2
+					27
 				],
 				[
 					65,
 					45,
-					0,
-					null,
-					60,
-					1.2,
-					0.8,
-					0.2
+					0
 				],
 				[
 					50,
@@ -471,35 +455,19 @@
 			},
 			"PIDs": [
 				[
-					52,
-					60,
-					28,
-					null,
-					60,
-					1,
-					0.8,
 					0,
-					0.2
+					60,
+					26
 				],
 				[
-					59,
+					0,
 					65,
-					30,
-					null,
-					60,
-					1,
-					0.8,
-					0.2
+					29
 				],
 				[
-					60,
+					63,
 					45,
-					0,
-					null,
-					60,
-					1.2,
-					0.8,
-					0.2
+					0
 				],
 				[
 					50,
@@ -936,33 +904,17 @@
 				[
 					46,
 					45,
-					25,
-					null,
-					60,
-					1,
-					0.8,
-					0,
-					0.2
+					25
 				],
 				[
 					50,
 					50,
-					27,
-					null,
-					60,
-					1,
-					0.8,
-					0.2
+					27
 				],
 				[
 					65,
 					45,
-					0,
-					null,
-					60,
-					1.2,
-					0.8,
-					0.2
+					0
 				],
 				[
 					50,
@@ -1416,7 +1368,9 @@
 			},
 			{
 				"identifier": 0,
-				"functions": [],
+				"functions": [
+					"RX_SERIAL"
+				],
 				"msp_baudrate": "115200",
 				"gps_baudrate": "57600",
 				"telemetry_baudrate": "AUTO",
@@ -1434,9 +1388,7 @@
 			},
 			{
 				"identifier": 5,
-				"functions": [
-					"RX_SERIAL"
-				],
+				"functions": [],
 				"msp_baudrate": "115200",
 				"gps_baudrate": "57600",
 				"telemetry_baudrate": "AUTO",
@@ -2150,7 +2102,7 @@
 		"gyro_2_align": 0
 	},
 	"RX_CONFIG": {
-		"serialrx_provider": 2,
+		"serialrx_provider": 9,
 		"stick_max": 1900,
 		"stick_center": 1500,
 		"stick_min": 1050,
@@ -2174,7 +2126,7 @@
 		"usbCdcHidType": 0
 	},
 	"FAILSAFE_CONFIG": {
-		"failsafe_delay": 4,
+		"failsafe_delay": 5,
 		"failsafe_off_delay": 10,
 		"failsafe_throttle": 1000,
 		"failsafe_switch_mode": 0,
@@ -2195,7 +2147,7 @@
 			"value": 1500
 		},
 		{
-			"mode": 0,
+			"mode": 1,
 			"value": 875
 		},
 		{
@@ -2243,20 +2195,12 @@
 			"value": 1500
 		},
 		{
-			"mode": 1,
-			"value": 1500
-		},
-		{
-			"mode": 1,
-			"value": 1500
-		},
-		{
-			"mode": 1,
-			"value": 1500
+			"mode": 2,
+			"value": 1000
 		}
 	],
 	"RSSI_CONFIG": {
-		"channel": 16
+		"channel": 12
 	},
 	"FEATURE_CONFIG": {
 		"features": {
