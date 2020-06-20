@@ -608,17 +608,17 @@
 			"PIDs": [
 				[
 					44,
-					60,
-					35
+					46,
+					26
 				],
 				[
-					48,
+					50,
+					43,
+					27
+				],
+				[
 					70,
-					38
-				],
-				[
-					35,
-					100,
+					65,
 					0
 				],
 				[
@@ -1206,14 +1206,14 @@
 			},
 			"PIDs": [
 				[
-					42,
+					44,
 					60,
-					35
+					33
 				],
 				[
-					46,
+					48,
 					70,
-					38
+					36
 				],
 				[
 					35,
@@ -2590,7 +2590,7 @@
 		"gyro_2_align": 0
 	},
 	"RX_CONFIG": {
-		"serialrx_provider": 2,
+		"serialrx_provider": 9,
 		"stick_max": 1900,
 		"stick_center": 1500,
 		"stick_min": 1050,
@@ -2614,7 +2614,7 @@
 		"usbCdcHidType": 0
 	},
 	"FAILSAFE_CONFIG": {
-		"failsafe_delay": 4,
+		"failsafe_delay": 5,
 		"failsafe_off_delay": 10,
 		"failsafe_throttle": 1000,
 		"failsafe_switch_mode": 0,
@@ -2635,7 +2635,7 @@
 			"value": 1500
 		},
 		{
-			"mode": 0,
+			"mode": 1,
 			"value": 875
 		},
 		{
@@ -2667,16 +2667,8 @@
 			"value": 1500
 		},
 		{
-			"mode": 1,
-			"value": 1500
-		},
-		{
-			"mode": 1,
-			"value": 1500
-		},
-		{
-			"mode": 1,
-			"value": 1500
+			"mode": 2,
+			"value": 1000
 		},
 		{
 			"mode": 1,
