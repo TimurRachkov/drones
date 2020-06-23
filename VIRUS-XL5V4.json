@@ -1,5 +1,5 @@
 {
-	"generatedBy": "10.6.0",
+	"generatedBy": "10.7.0",
 	"apiVersion": "1.41.0",
 	"profiles": [
 		{
@@ -2712,7 +2712,7 @@
 				},
 				{
 					"bit": 4,
-					"group": "esc",
+					"group": "escMotorStop",
 					"name": "MOTOR_STOP"
 				},
 				{
@@ -2805,13 +2805,15 @@
 				},
 				{
 					"bit": 27,
-					"group": "esc",
+					"group": "escSensor",
 					"name": "ESC_SENSOR"
 				},
 				{
 					"bit": 28,
-					"group": "other",
-					"name": "ANTI_GRAVITY"
+					"group": "antiGravity",
+					"name": "ANTI_GRAVITY",
+					"haveTip": true,
+					"hideName": true
 				},
 				{
 					"bit": 29,
@@ -2836,10 +2838,9 @@
 		"provider": 0,
 		"ublox_sbas": 0,
 		"auto_config": 1,
-		"auto_baud": 0
-	},
-	"COMPASS_CONFIG": {
-		"mag_declination": 0
+		"auto_baud": 0,
+		"home_point_once": 0,
+		"ublox_use_galileo": 0
 	},
 	"BEEPER_CONFIG": {
 		"beepers": {
