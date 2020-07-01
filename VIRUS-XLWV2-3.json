@@ -1,5 +1,5 @@
 {
-	"generatedBy": "10.5.1",
+	"generatedBy": "10.6.0",
 	"apiVersion": "1.40.0",
 	"profiles": [
 		{
@@ -42,17 +42,20 @@
 				"RC_RATE": 1,
 				"RC_EXPO": 0.2,
 				"roll_pitch_rate": 0,
-				"roll_rate": 0.78,
-				"pitch_rate": 0.78,
-				"yaw_rate": 0.78,
+				"roll_rate": 0.8,
+				"pitch_rate": 0.8,
+				"yaw_rate": 0.8,
 				"dynamic_THR_PID": 0.1,
 				"throttle_MID": 0.5,
 				"throttle_EXPO": 0,
 				"dynamic_THR_breakpoint": 1650,
 				"RC_YAW_EXPO": 0.2,
-				"rcYawRate": 1,
+				"rcYawRate": 1.2,
 				"rcPitchRate": 1,
-				"RC_PITCH_EXPO": 0.2
+				"RC_PITCH_EXPO": 0.2,
+				"roll_rate_limit": 1998,
+				"pitch_rate_limit": 1998,
+				"yaw_rate_limit": 1998
 			},
 			"AccTrim": [
 				0,
@@ -452,17 +455,17 @@
 			},
 			"PIDs": [
 				[
-					53,
+					0,
 					60,
-					25
+					26
 				],
 				[
-					58,
+					0,
 					65,
-					27
+					29
 				],
 				[
-					65,
+					63,
 					45,
 					0
 				],
@@ -486,17 +489,20 @@
 				"RC_RATE": 1,
 				"RC_EXPO": 0.2,
 				"roll_pitch_rate": 0,
-				"roll_rate": 0.78,
-				"pitch_rate": 0.78,
-				"yaw_rate": 0.78,
+				"roll_rate": 0.8,
+				"pitch_rate": 0.8,
+				"yaw_rate": 0.8,
 				"dynamic_THR_PID": 0.1,
 				"throttle_MID": 0.5,
 				"throttle_EXPO": 0,
 				"dynamic_THR_breakpoint": 1650,
 				"RC_YAW_EXPO": 0.2,
-				"rcYawRate": 1,
+				"rcYawRate": 1.2,
 				"rcPitchRate": 1,
-				"RC_PITCH_EXPO": 0.2
+				"RC_PITCH_EXPO": 0.2,
+				"roll_rate_limit": 1998,
+				"pitch_rate_limit": 1998,
+				"yaw_rate_limit": 1998
 			},
 			"AccTrim": [
 				0,
@@ -930,17 +936,20 @@
 				"RC_RATE": 1,
 				"RC_EXPO": 0.2,
 				"roll_pitch_rate": 0,
-				"roll_rate": 0.78,
-				"pitch_rate": 0.78,
-				"yaw_rate": 0.78,
+				"roll_rate": 0.8,
+				"pitch_rate": 0.8,
+				"yaw_rate": 0.8,
 				"dynamic_THR_PID": 0.1,
 				"throttle_MID": 0.5,
 				"throttle_EXPO": 0,
 				"dynamic_THR_breakpoint": 1650,
 				"RC_YAW_EXPO": 0.2,
-				"rcYawRate": 1,
+				"rcYawRate": 1.2,
 				"rcPitchRate": 1,
-				"RC_PITCH_EXPO": 0.2
+				"RC_PITCH_EXPO": 0.2,
+				"roll_rate_limit": 1998,
+				"pitch_rate_limit": 1998,
+				"yaw_rate_limit": 1998
 			},
 			"AccTrim": [
 				0,
@@ -1359,7 +1368,9 @@
 			},
 			{
 				"identifier": 0,
-				"functions": [],
+				"functions": [
+					"RX_SERIAL"
+				],
 				"msp_baudrate": "115200",
 				"gps_baudrate": "57600",
 				"telemetry_baudrate": "AUTO",
@@ -1377,9 +1388,7 @@
 			},
 			{
 				"identifier": 5,
-				"functions": [
-					"RX_SERIAL"
-				],
+				"functions": [],
 				"msp_baudrate": "115200",
 				"gps_baudrate": "57600",
 				"telemetry_baudrate": "AUTO",
@@ -1818,7 +1827,15 @@
 		"fast_pwm_protocol": 7,
 		"motor_pwm_rate": 480,
 		"digitalIdlePercent": 4.5,
-		"gyroUse32kHz": 0
+		"gyroUse32kHz": 0,
+		"motorPwmInversion": 0,
+		"gyroHighFsr": 0,
+		"gyroMovementCalibThreshold": 0,
+		"gyroCalibDuration": 0,
+		"gyroOffsetYaw": 0,
+		"gyroCheckOverflow": 0,
+		"debugMode": 0,
+		"debugModeCount": 0
 	},
 	"LED_MODE_COLORS": [
 		{
@@ -2085,7 +2102,7 @@
 		"gyro_2_align": 0
 	},
 	"RX_CONFIG": {
-		"serialrx_provider": 2,
+		"serialrx_provider": 9,
 		"stick_max": 1900,
 		"stick_center": 1500,
 		"stick_min": 1050,
@@ -2104,10 +2121,12 @@
 		"rcSmoothingInputCutoff": 0,
 		"rcSmoothingDerivativeCutoff": 0,
 		"rcSmoothingInputType": 1,
-		"rcSmoothingDerivativeType": 2
+		"rcSmoothingDerivativeType": 2,
+		"rcSmoothingAutoSmoothness": 0,
+		"usbCdcHidType": 0
 	},
 	"FAILSAFE_CONFIG": {
-		"failsafe_delay": 4,
+		"failsafe_delay": 5,
 		"failsafe_off_delay": 10,
 		"failsafe_throttle": 1000,
 		"failsafe_switch_mode": 0,
@@ -2128,7 +2147,7 @@
 			"value": 1500
 		},
 		{
-			"mode": 0,
+			"mode": 1,
 			"value": 875
 		},
 		{
@@ -2176,20 +2195,12 @@
 			"value": 1500
 		},
 		{
-			"mode": 1,
-			"value": 1500
-		},
-		{
-			"mode": 1,
-			"value": 1500
-		},
-		{
-			"mode": 1,
-			"value": 1500
+			"mode": 2,
+			"value": 1000
 		}
 	],
 	"RSSI_CONFIG": {
-		"channel": 16
+		"channel": 12
 	},
 	"FEATURE_CONFIG": {
 		"features": {
@@ -2219,7 +2230,8 @@
 				{
 					"bit": 5,
 					"group": "other",
-					"name": "SERVO_TILT"
+					"name": "SERVO_TILT",
+					"haveTip": true
 				},
 				{
 					"bit": 6,
@@ -2305,7 +2317,7 @@
 				},
 				{
 					"bit": 27,
-					"group": "other",
+					"group": "esc",
 					"name": "ESC_SENSOR"
 				},
 				{
@@ -2326,7 +2338,11 @@
 	"MOTOR_CONFIG": {
 		"minthrottle": 1070,
 		"maxthrottle": 2000,
-		"mincommand": 1000
+		"mincommand": 1000,
+		"motor_count": 0,
+		"motor_poles": 0,
+		"use_dshot_telemetry": false,
+		"use_esc_sensor": false
 	},
 	"GPS_CONFIG": {
 		"provider": 0,

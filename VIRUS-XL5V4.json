@@ -1,5 +1,5 @@
 {
-	"generatedBy": "10.5.1",
+	"generatedBy": "10.7.0",
 	"apiVersion": "1.41.0",
 	"profiles": [
 		{
@@ -42,17 +42,20 @@
 				"RC_RATE": 1,
 				"RC_EXPO": 0.2,
 				"roll_pitch_rate": 0,
-				"roll_rate": 0.78,
-				"pitch_rate": 0.78,
-				"yaw_rate": 0.78,
+				"roll_rate": 0.8,
+				"pitch_rate": 0.8,
+				"yaw_rate": 0.8,
 				"dynamic_THR_PID": 0.5,
 				"throttle_MID": 0.5,
 				"throttle_EXPO": 0,
 				"dynamic_THR_breakpoint": 1500,
 				"RC_YAW_EXPO": 0.2,
-				"rcYawRate": 1,
+				"rcYawRate": 1.2,
 				"rcPitchRate": 1,
 				"RC_PITCH_EXPO": 0.2,
+				"roll_rate_limit": 1998,
+				"pitch_rate_limit": 1998,
+				"yaw_rate_limit": 1998,
 				"throttleLimitType": 0,
 				"throttleLimitPercent": 100
 			},
@@ -161,27 +164,11 @@
 					}
 				},
 				{
-					"id": 19,
-					"auxChannelIndex": 4,
-					"range": {
-						"start": 1700,
-						"end": 2100
-					}
-				},
-				{
 					"id": 28,
 					"auxChannelIndex": 1,
 					"range": {
 						"start": 900,
 						"end": 1500
-					}
-				},
-				{
-					"id": 30,
-					"auxChannelIndex": 4,
-					"range": {
-						"start": 1300,
-						"end": 1700
 					}
 				},
 				{
@@ -198,6 +185,22 @@
 					"range": {
 						"start": 1300,
 						"end": 1700
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
 					}
 				},
 				{
@@ -604,18 +607,18 @@
 			},
 			"PIDs": [
 				[
-					42,
-					60,
-					35
-				],
-				[
+					44,
 					46,
-					70,
-					38
+					26
 				],
 				[
-					35,
-					100,
+					50,
+					43,
+					27
+				],
+				[
+					70,
+					65,
 					0
 				],
 				[
@@ -638,17 +641,20 @@
 				"RC_RATE": 1,
 				"RC_EXPO": 0.2,
 				"roll_pitch_rate": 0,
-				"roll_rate": 0.78,
-				"pitch_rate": 0.78,
-				"yaw_rate": 0.78,
+				"roll_rate": 0.8,
+				"pitch_rate": 0.8,
+				"yaw_rate": 0.8,
 				"dynamic_THR_PID": 0.5,
 				"throttle_MID": 0.5,
 				"throttle_EXPO": 0,
 				"dynamic_THR_breakpoint": 1500,
 				"RC_YAW_EXPO": 0.2,
-				"rcYawRate": 1,
+				"rcYawRate": 1.2,
 				"rcPitchRate": 1,
 				"RC_PITCH_EXPO": 0.2,
+				"roll_rate_limit": 1998,
+				"pitch_rate_limit": 1998,
+				"yaw_rate_limit": 1998,
 				"throttleLimitType": 0,
 				"throttleLimitPercent": 100
 			},
@@ -757,27 +763,11 @@
 					}
 				},
 				{
-					"id": 19,
-					"auxChannelIndex": 4,
-					"range": {
-						"start": 1700,
-						"end": 2100
-					}
-				},
-				{
 					"id": 28,
 					"auxChannelIndex": 1,
 					"range": {
 						"start": 900,
 						"end": 1500
-					}
-				},
-				{
-					"id": 30,
-					"auxChannelIndex": 4,
-					"range": {
-						"start": 1300,
-						"end": 1700
 					}
 				},
 				{
@@ -794,6 +784,22 @@
 					"range": {
 						"start": 1300,
 						"end": 1700
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
 					}
 				},
 				{
@@ -1200,14 +1206,14 @@
 			},
 			"PIDs": [
 				[
-					42,
+					44,
 					60,
-					35
+					33
 				],
 				[
-					46,
+					48,
 					70,
-					38
+					36
 				],
 				[
 					35,
@@ -1234,17 +1240,20 @@
 				"RC_RATE": 1,
 				"RC_EXPO": 0.2,
 				"roll_pitch_rate": 0,
-				"roll_rate": 0.78,
-				"pitch_rate": 0.78,
-				"yaw_rate": 0.78,
+				"roll_rate": 0.8,
+				"pitch_rate": 0.8,
+				"yaw_rate": 0.8,
 				"dynamic_THR_PID": 0.5,
 				"throttle_MID": 0.5,
 				"throttle_EXPO": 0,
 				"dynamic_THR_breakpoint": 1500,
 				"RC_YAW_EXPO": 0.2,
-				"rcYawRate": 1,
+				"rcYawRate": 1.2,
 				"rcPitchRate": 1,
 				"RC_PITCH_EXPO": 0.2,
+				"roll_rate_limit": 1998,
+				"pitch_rate_limit": 1998,
+				"yaw_rate_limit": 1998,
 				"throttleLimitType": 0,
 				"throttleLimitPercent": 100
 			},
@@ -1353,27 +1362,11 @@
 					}
 				},
 				{
-					"id": 19,
-					"auxChannelIndex": 4,
-					"range": {
-						"start": 1700,
-						"end": 2100
-					}
-				},
-				{
 					"id": 28,
 					"auxChannelIndex": 1,
 					"range": {
 						"start": 900,
 						"end": 1500
-					}
-				},
-				{
-					"id": 30,
-					"auxChannelIndex": 4,
-					"range": {
-						"start": 1300,
-						"end": 1700
 					}
 				},
 				{
@@ -1390,6 +1383,22 @@
 					"range": {
 						"start": 1300,
 						"end": 1700
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
 					}
 				},
 				{
@@ -2199,16 +2208,6 @@
 			"color": 0,
 			"directions": [],
 			"parameters": 0
-		},
-		{
-			"y": 0,
-			"x": 0,
-			"functions": [
-				"c"
-			],
-			"color": 0,
-			"directions": [],
-			"parameters": 0
 		}
 	],
 	"LED_COLORS": [
@@ -2316,7 +2315,15 @@
 		"fast_pwm_protocol": 7,
 		"motor_pwm_rate": 480,
 		"digitalIdlePercent": 5.5,
-		"gyroUse32kHz": 0
+		"gyroUse32kHz": 0,
+		"motorPwmInversion": 0,
+		"gyroHighFsr": 0,
+		"gyroMovementCalibThreshold": 0,
+		"gyroCalibDuration": 0,
+		"gyroOffsetYaw": 0,
+		"gyroCheckOverflow": 0,
+		"debugMode": 0,
+		"debugModeCount": 0
 	},
 	"LED_MODE_COLORS": [
 		{
@@ -2583,7 +2590,7 @@
 		"gyro_2_align": 0
 	},
 	"RX_CONFIG": {
-		"serialrx_provider": 2,
+		"serialrx_provider": 9,
 		"stick_max": 1900,
 		"stick_center": 1500,
 		"stick_min": 1050,
@@ -2602,10 +2609,12 @@
 		"rcSmoothingInputCutoff": 0,
 		"rcSmoothingDerivativeCutoff": 0,
 		"rcSmoothingInputType": 1,
-		"rcSmoothingDerivativeType": 2
+		"rcSmoothingDerivativeType": 2,
+		"rcSmoothingAutoSmoothness": 0,
+		"usbCdcHidType": 0
 	},
 	"FAILSAFE_CONFIG": {
-		"failsafe_delay": 4,
+		"failsafe_delay": 5,
 		"failsafe_off_delay": 10,
 		"failsafe_throttle": 1000,
 		"failsafe_switch_mode": 0,
@@ -2626,7 +2635,7 @@
 			"value": 1500
 		},
 		{
-			"mode": 0,
+			"mode": 1,
 			"value": 875
 		},
 		{
@@ -2658,16 +2667,8 @@
 			"value": 1500
 		},
 		{
-			"mode": 1,
-			"value": 1500
-		},
-		{
-			"mode": 1,
-			"value": 1500
-		},
-		{
-			"mode": 1,
-			"value": 1500
+			"mode": 2,
+			"value": 1000
 		},
 		{
 			"mode": 1,
@@ -2711,13 +2712,14 @@
 				},
 				{
 					"bit": 4,
-					"group": "esc",
+					"group": "escMotorStop",
 					"name": "MOTOR_STOP"
 				},
 				{
 					"bit": 5,
 					"group": "other",
-					"name": "SERVO_TILT"
+					"name": "SERVO_TILT",
+					"haveTip": true
 				},
 				{
 					"bit": 6,
@@ -2803,13 +2805,15 @@
 				},
 				{
 					"bit": 27,
-					"group": "other",
+					"group": "escSensor",
 					"name": "ESC_SENSOR"
 				},
 				{
 					"bit": 28,
-					"group": "other",
-					"name": "ANTI_GRAVITY"
+					"group": "antiGravity",
+					"name": "ANTI_GRAVITY",
+					"haveTip": true,
+					"hideName": true
 				},
 				{
 					"bit": 29,
@@ -2824,16 +2828,19 @@
 	"MOTOR_CONFIG": {
 		"minthrottle": 1070,
 		"maxthrottle": 2000,
-		"mincommand": 1000
+		"mincommand": 1000,
+		"motor_count": 0,
+		"motor_poles": 0,
+		"use_dshot_telemetry": false,
+		"use_esc_sensor": false
 	},
 	"GPS_CONFIG": {
 		"provider": 0,
 		"ublox_sbas": 0,
 		"auto_config": 1,
-		"auto_baud": 0
-	},
-	"COMPASS_CONFIG": {
-		"mag_declination": 0
+		"auto_baud": 0,
+		"home_point_once": 0,
+		"ublox_use_galileo": 0
 	},
 	"BEEPER_CONFIG": {
 		"beepers": {
@@ -2995,17 +3002,7 @@
 			"linkedTo": 0
 		},
 		{
-			"id": 19,
-			"modeLogic": 0,
-			"linkedTo": 0
-		},
-		{
 			"id": 28,
-			"modeLogic": 0,
-			"linkedTo": 0
-		},
-		{
-			"id": 30,
 			"modeLogic": 0,
 			"linkedTo": 0
 		},
@@ -3016,6 +3013,16 @@
 		},
 		{
 			"id": 39,
+			"modeLogic": 0,
+			"linkedTo": 0
+		},
+		{
+			"id": 0,
+			"modeLogic": 0,
+			"linkedTo": 0
+		},
+		{
+			"id": 0,
 			"modeLogic": 0,
 			"linkedTo": 0
 		},
