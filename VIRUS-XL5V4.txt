@@ -1,7 +1,5 @@
 # 
 
-# dum[
-###ERROR: UNKNOWN COMMAND, TRY 'HELP'###
 # dump
 
 # version
@@ -612,7 +610,7 @@ set ibat_lpf_period = 10
 set vbat_scale = 110
 set vbat_divider = 10
 set vbat_multiplier = 1
-set ibata_scale = 110
+set ibata_scale = 95
 set ibata_offset = 0
 set ibatv_scale = 0
 set ibatv_offset = 0
@@ -882,7 +880,7 @@ set dterm_rpm_notch_min = 100
 set rpm_notch_lpf = 150
 
 # profile
-profile 2
+profile 1
 
 set dyn_lpf_dterm_min_hz = 150
 set dyn_lpf_dterm_max_hz = 250
@@ -925,16 +923,16 @@ set acro_trainer_angle_limit = 20
 set acro_trainer_lookahead_ms = 50
 set acro_trainer_debug_axis = ROLL
 set acro_trainer_gain = 75
-set p_pitch = 48
-set i_pitch = 66
-set d_pitch = 36
+set p_pitch = 50
+set i_pitch = 43
+set d_pitch = 27
 set f_pitch = 75
 set p_roll = 44
-set i_roll = 56
-set d_roll = 33
+set i_roll = 46
+set d_roll = 26
 set f_roll = 70
-set p_yaw = 35
-set i_yaw = 96
+set p_yaw = 70
+set i_yaw = 65
 set d_yaw = 0
 set f_yaw = 0
 set angle_level_strength = 50
