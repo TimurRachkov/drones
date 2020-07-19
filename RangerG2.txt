@@ -372,28 +372,28 @@ osd_layout 0 6 1 0 V
 osd_layout 0 7 3 4 V
 osd_layout 0 8 20 2 H
 osd_layout 0 9 22 4 V
-osd_layout 0 10 23 0 V
+osd_layout 0 10 23 1 V
 osd_layout 0 11 23 14 V
 osd_layout 0 12 2 14 V
 osd_layout 0 13 24 5 V
-osd_layout 0 14 11 0 V
+osd_layout 0 14 3 7 V
 osd_layout 0 15 24 6 V
 osd_layout 0 16 2 10 H
 osd_layout 0 17 2 11 H
 osd_layout 0 18 2 12 H
 osd_layout 0 19 15 1 H
-osd_layout 0 20 0 12 V
-osd_layout 0 21 0 11 V
+osd_layout 0 20 20 0 V
+osd_layout 0 21 7 0 V
 osd_layout 0 22 14 11 V
 osd_layout 0 23 24 8 V
-osd_layout 0 24 12 1 V
+osd_layout 0 24 2 5 V
 osd_layout 0 25 23 5 V
 osd_layout 0 26 24 7 V
 osd_layout 0 27 3 5 H
 osd_layout 0 28 1 0 H
 osd_layout 0 29 23 12 H
 osd_layout 0 30 1 13 V
-osd_layout 0 31 7 0 V
+osd_layout 0 31 3 6 V
 osd_layout 0 32 9 8 V
 osd_layout 0 33 6 2 H
 osd_layout 0 34 10 3 V
@@ -1093,7 +1093,7 @@ set osd_baro_temp_alarm_max = 600
 set osd_temp_label_align = LEFT
 set osd_artificial_horizon_reverse_roll = OFF
 set osd_artificial_horizon_max_pitch = 20
-set osd_crosshairs_style = DEFAULT
+set osd_crosshairs_style = AIRCRAFT
 set osd_horizon_offset = 0
 set osd_camera_uptilt = 0
 set osd_camera_fov_h = 135
