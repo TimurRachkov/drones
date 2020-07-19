@@ -105,6 +105,7 @@ feature VBAT
 feature TX_PROF_SEL
 feature MOTOR_STOP
 feature SOFTSERIAL
+feature GPS
 feature TELEMETRY
 feature CURRENT_METER
 feature PWM_OUTPUT_ENABLE
@@ -141,7 +142,7 @@ map AETR
 # serial
 serial 20 1 115200 115200 0 115200
 serial 0 64 115200 115200 0 115200
-serial 1 0 115200 115200 0 115200
+serial 1 2 115200 57600 0 115200
 serial 30 2048 115200 115200 0 115200
 
 # led
@@ -250,14 +251,14 @@ aux 0 0 0 1500 2100
 aux 1 1 5 1300 2100
 aux 2 2 2 1300 1700
 aux 3 3 5 1700 2100
-aux 4 12 2 1700 2100
-aux 5 37 4 1700 2100
-aux 6 21 4 1300 1700
-aux 7 34 1 1500 2100
-aux 8 13 6 1500 1550
-aux 9 42 4 1300 1700
-aux 10 0 0 900 900
-aux 11 0 0 900 900
+aux 4 11 3 1300 1700
+aux 5 10 3 1700 2100
+aux 6 12 2 1700 2100
+aux 7 37 4 1700 2100
+aux 8 21 4 1300 1700
+aux 9 34 1 1500 2100
+aux 10 13 6 1500 1550
+aux 11 42 4 1300 1700
 aux 12 0 0 900 900
 aux 13 0 0 900 900
 aux 14 0 0 900 900
@@ -371,31 +372,31 @@ osd_layout 0 6 1 0 V
 osd_layout 0 7 3 4 V
 osd_layout 0 8 20 2 H
 osd_layout 0 9 22 4 V
-osd_layout 0 10 17 0 V
+osd_layout 0 10 23 0 V
 osd_layout 0 11 23 14 V
 osd_layout 0 12 2 14 V
-osd_layout 0 13 23 1 H
-osd_layout 0 14 0 11 V
-osd_layout 0 15 24 5 V
+osd_layout 0 13 24 5 V
+osd_layout 0 14 11 0 V
+osd_layout 0 15 24 6 V
 osd_layout 0 16 2 10 H
 osd_layout 0 17 2 11 H
 osd_layout 0 18 2 12 H
 osd_layout 0 19 15 1 H
-osd_layout 0 20 18 12 H
-osd_layout 0 21 0 12 H
-osd_layout 0 22 14 11 H
-osd_layout 0 23 1 1 H
-osd_layout 0 24 12 2 H
+osd_layout 0 20 0 12 V
+osd_layout 0 21 0 11 V
+osd_layout 0 22 14 11 V
+osd_layout 0 23 24 8 V
+osd_layout 0 24 12 1 V
 osd_layout 0 25 23 5 V
-osd_layout 0 26 24 6 V
+osd_layout 0 26 24 7 V
 osd_layout 0 27 3 5 H
 osd_layout 0 28 1 0 H
 osd_layout 0 29 23 12 H
 osd_layout 0 30 1 13 V
-osd_layout 0 31 0 10 H
+osd_layout 0 31 7 0 V
 osd_layout 0 32 9 8 V
 osd_layout 0 33 6 2 H
-osd_layout 0 34 18 2 H
+osd_layout 0 34 10 3 V
 osd_layout 0 35 3 13 H
 osd_layout 0 36 1 5 H
 osd_layout 0 37 1 6 H
@@ -882,7 +883,7 @@ set failsafe_recovery_delay = 5
 set failsafe_off_delay = 200
 set failsafe_throttle = 1000
 set failsafe_throttle_low_delay = 0
-set failsafe_procedure = DROP
+set failsafe_procedure = SET-THR
 set failsafe_stick_threshold = 50
 set failsafe_fw_roll_angle = -200
 set failsafe_fw_pitch_angle = 100
@@ -1155,7 +1156,7 @@ set mc_i_level = 15
 set mc_d_level = 75
 set fw_p_pitch = 12
 set fw_i_pitch = 20
-set fw_ff_pitch = 84
+set fw_ff_pitch = 150
 set fw_p_roll = 12
 set fw_i_roll = 18
 set fw_ff_roll = 81
