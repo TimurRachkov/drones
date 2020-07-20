@@ -108,6 +108,7 @@ feature SOFTSERIAL
 feature GPS
 feature TELEMETRY
 feature CURRENT_METER
+feature AIRMODE
 feature PWM_OUTPUT_ENABLE
 feature OSD
 feature FW_LAUNCH
@@ -1157,7 +1158,7 @@ set mc_d_level = 75
 set fw_p_pitch = 12
 set fw_i_pitch = 20
 set fw_ff_pitch = 150
-set fw_p_roll = 12
+set fw_p_roll = 15
 set fw_i_roll = 18
 set fw_ff_roll = 81
 set fw_p_yaw = 12
