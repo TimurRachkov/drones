@@ -398,7 +398,7 @@ osd_layout 0 31 3 6 V
 osd_layout 0 32 9 8 V
 osd_layout 0 33 6 2 H
 osd_layout 0 34 10 3 V
-osd_layout 0 35 3 13 H
+osd_layout 0 35 24 9 V
 osd_layout 0 36 1 5 H
 osd_layout 0 37 1 6 H
 osd_layout 0 38 1 7 H
@@ -1076,8 +1076,8 @@ set osd_video_system = AUTO
 set osd_row_shiftdown = 0
 set osd_units = METRIC
 set osd_stats_energy_unit = MAH
-set osd_rssi_alarm = 70
-set osd_time_alarm = 10
+set osd_rssi_alarm = 85
+set osd_time_alarm = 15
 set osd_alt_alarm = 100
 set osd_dist_alarm = 1000
 set osd_neg_alt_alarm = 5
