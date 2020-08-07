@@ -249,11 +249,11 @@ mode_color 6 10 0
 
 # aux
 aux 0 0 0 1500 2100
-aux 1 1 5 1300 2100
-aux 2 2 2 1300 1700
-aux 3 3 5 1700 2100
-aux 4 11 3 1300 1700
-aux 5 10 3 1700 2100
+aux 1 1 5 1300 1700
+aux 2 3 5 1700 2100
+aux 3 11 3 1300 1700
+aux 4 10 3 1700 2100
+aux 5 45 5 1700 2100
 aux 6 12 2 1700 2100
 aux 7 37 4 1700 2100
 aux 8 21 4 1300 1700
@@ -1039,7 +1039,7 @@ set nav_fw_launch_spinup_time = 1000
 set nav_fw_launch_min_time = 0
 set nav_fw_launch_timeout = 20000
 set nav_fw_launch_max_altitude = 0
-set nav_fw_launch_climb_angle = 25
+set nav_fw_launch_climb_angle = 21
 set nav_fw_cruise_yaw_rate = 20
 set nav_fw_allow_manual_thr_increase = OFF
 set nav_use_fw_yaw_control = OFF
