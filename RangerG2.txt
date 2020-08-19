@@ -386,7 +386,7 @@ osd_layout 0 19 15 1 H
 osd_layout 0 20 18 0 V
 osd_layout 0 21 7 0 V
 osd_layout 0 22 14 11 V
-osd_layout 0 23 24 8 V
+osd_layout 0 23 2 8 V
 osd_layout 0 24 2 5 V
 osd_layout 0 25 23 5 V
 osd_layout 0 26 24 7 V
@@ -398,7 +398,7 @@ osd_layout 0 31 3 6 V
 osd_layout 0 32 9 8 V
 osd_layout 0 33 6 2 H
 osd_layout 0 34 10 3 V
-osd_layout 0 35 24 9 V
+osd_layout 0 35 24 3 V
 osd_layout 0 36 1 5 H
 osd_layout 0 37 1 6 H
 osd_layout 0 38 1 7 H
@@ -1203,7 +1203,7 @@ set nav_mc_vel_xy_dterm_lpf_hz =  2.000
 set nav_fw_pos_z_p = 40
 set nav_fw_pos_z_i = 5
 set nav_fw_pos_z_d = 10
-set nav_fw_pos_xy_p = 75
+set nav_fw_pos_xy_p = 78
 set nav_fw_pos_xy_i = 5
 set nav_fw_pos_xy_d = 8
 set nav_fw_heading_p = 60
