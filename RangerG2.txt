@@ -257,8 +257,8 @@ aux 5 45 5 1700 2100
 aux 6 12 2 1700 2100
 aux 7 37 4 1700 2100
 aux 8 21 4 1300 1700
-aux 9 34 1 1500 2100
-aux 10 13 6 1500 1550
+aux 9 34 6 1925 2025
+aux 10 13 6 975 1075
 aux 11 42 4 1300 1700
 aux 12 0 0 900 900
 aux 13 0 0 900 900
@@ -376,9 +376,9 @@ osd_layout 0 9 22 4 V
 osd_layout 0 10 21 1 V
 osd_layout 0 11 23 14 V
 osd_layout 0 12 2 14 V
-osd_layout 0 13 24 5 V
+osd_layout 0 13 24 6 V
 osd_layout 0 14 3 7 V
-osd_layout 0 15 24 6 V
+osd_layout 0 15 24 5 V
 osd_layout 0 16 2 10 H
 osd_layout 0 17 2 11 H
 osd_layout 0 18 2 12 H
@@ -398,7 +398,7 @@ osd_layout 0 31 3 6 V
 osd_layout 0 32 9 8 V
 osd_layout 0 33 6 2 H
 osd_layout 0 34 10 3 V
-osd_layout 0 35 24 3 V
+osd_layout 0 35 24 8 V
 osd_layout 0 36 1 5 H
 osd_layout 0 37 1 6 H
 osd_layout 0 38 1 7 H
@@ -1159,11 +1159,11 @@ set fw_p_pitch = 12
 set fw_i_pitch = 18
 set fw_ff_pitch = 80
 set fw_p_roll = 10
-set fw_i_roll = 18
-set fw_ff_roll = 81
+set fw_i_roll = 20
+set fw_ff_roll = 135
 set fw_p_yaw = 12
 set fw_i_yaw = 20
-set fw_ff_yaw = 180
+set fw_ff_yaw = 174
 set fw_p_level = 20
 set fw_i_level = 5
 set fw_d_level = 75
@@ -1203,7 +1203,7 @@ set nav_mc_vel_xy_dterm_lpf_hz =  2.000
 set nav_fw_pos_z_p = 40
 set nav_fw_pos_z_i = 5
 set nav_fw_pos_z_d = 10
-set nav_fw_pos_xy_p = 78
+set nav_fw_pos_xy_p = 85
 set nav_fw_pos_xy_i = 5
 set nav_fw_pos_xy_d = 8
 set nav_fw_heading_p = 60
@@ -1228,7 +1228,7 @@ set tpa_breakpoint = 1500
 set fw_tpa_time_constant = 0
 set rc_expo = 70
 set rc_yaw_expo = 20
-set roll_rate = 16
+set roll_rate = 10
 set pitch_rate = 20
 set yaw_rate = 8
 set manual_rc_expo = 70
