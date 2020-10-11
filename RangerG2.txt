@@ -387,7 +387,7 @@ osd_layout 0 20 18 0 V
 osd_layout 0 21 7 0 V
 osd_layout 0 22 14 11 V
 osd_layout 0 23 2 8 V
-osd_layout 0 24 2 5 V
+osd_layout 0 24 12 2 V
 osd_layout 0 25 23 5 V
 osd_layout 0 26 24 7 V
 osd_layout 0 27 3 5 H
@@ -893,7 +893,7 @@ set failsafe_min_distance = 0
 set failsafe_min_distance_procedure = DROP
 set failsafe_mission = ON
 set align_board_roll = 0
-set align_board_pitch = 80
+set align_board_pitch = 70
 set align_board_yaw = 0
 set vbat_meter_type = ADC
 set vbat_scale = 1100
@@ -1017,9 +1017,9 @@ set nav_mc_braking_boost_disengage_speed = 100
 set nav_mc_braking_bank_angle = 40
 set nav_mc_pos_deceleration_time = 120
 set nav_mc_pos_expo = 10
-set nav_fw_cruise_thr = 1650
-set nav_fw_min_thr = 1650
-set nav_fw_max_thr = 1750
+set nav_fw_cruise_thr = 1600
+set nav_fw_min_thr = 1550
+set nav_fw_max_thr = 1650
 set nav_fw_bank_angle = 35
 set nav_fw_climb_angle = 20
 set nav_fw_dive_angle = 15
@@ -1032,7 +1032,7 @@ set nav_fw_launch_velocity = 300
 set nav_fw_launch_accel = 1863
 set nav_fw_launch_max_angle = 45
 set nav_fw_launch_detect_time = 40
-set nav_fw_launch_thr = 1750
+set nav_fw_launch_thr = 1800
 set nav_fw_launch_idle_thr = 1000
 set nav_fw_launch_motor_delay = 500
 set nav_fw_launch_spinup_time = 1000
@@ -1123,9 +1123,9 @@ set throttle_tilt_comp_str = 0
 set name = 
 set mode_range_logic_operator = OR
 set stats = ON
-set stats_total_time = 3861
-set stats_total_dist = 31134
-set stats_total_energy = 118270
+set stats_total_time = 7192
+set stats_total_dist = 61330
+set stats_total_energy = 227482
 set tz_offset = 0
 set tz_automatic_dst = OFF
 set display_force_sw_blink = OFF
@@ -1158,7 +1158,7 @@ set mc_d_level = 75
 set fw_p_pitch = 12
 set fw_i_pitch = 18
 set fw_ff_pitch = 110
-set fw_p_roll = 10
+set fw_p_roll = 12
 set fw_i_roll = 20
 set fw_ff_roll = 135
 set fw_p_yaw = 12
