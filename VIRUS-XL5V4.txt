@@ -439,7 +439,7 @@ aux 19 0 0 900 900 0 0
 
 # adjrange
 adjrange 0 0 5 900 2100 12 5 0 0
-adjrange 1 0 0 900 900 0 0 0 0
+adjrange 1 0 4 900 2100 29 4 0 0
 adjrange 2 0 0 900 900 0 0 0 0
 adjrange 3 0 0 900 900 0 0 0 0
 adjrange 4 0 0 900 900 0 0 0 0
@@ -818,21 +818,21 @@ set osd_tim1 = 2560
 set osd_tim2 = 2561
 set osd_vbat_pos = 460
 set osd_rssi_pos = 215
-set osd_link_quality_pos = 2319
+set osd_link_quality_pos = 14607
 set osd_rssi_dbm_pos = 183
 set osd_tim_1_pos = 234
 set osd_tim_2_pos = 1
 set osd_remaining_time_estimate_pos = 234
-set osd_flymode_pos = 2050
+set osd_flymode_pos = 6146
 set osd_anti_gravity_pos = 234
 set osd_g_force_pos = 162
-set osd_throttle_pos = 2071
+set osd_throttle_pos = 6167
 set osd_vtx_channel_pos = 20
-set osd_crosshairs_pos = 2189
-set osd_ah_sbar_pos = 2190
-set osd_ah_pos = 2158
+set osd_crosshairs_pos = 6285
+set osd_ah_sbar_pos = 6286
+set osd_ah_pos = 6254
 set osd_current_pos = 470
-set osd_mah_drawn_pos = 2509
+set osd_mah_drawn_pos = 6605
 set osd_motor_diag_pos = 234
 set osd_craft_name_pos = 457
 set osd_display_name_pos = 234
@@ -852,11 +852,11 @@ set osd_debug_pos = 234
 set osd_power_pos = 234
 set osd_pidrate_profile_pos = 13
 set osd_warnings_pos = 14697
-set osd_avg_cell_voltage_pos = 2313
-set osd_pit_ang_pos = 234
-set osd_rol_ang_pos = 234
+set osd_avg_cell_voltage_pos = 14601
+set osd_pit_ang_pos = 4375
+set osd_rol_ang_pos = 4495
 set osd_battery_usage_pos = 234
-set osd_disarmed_pos = 2059
+set osd_disarmed_pos = 6155
 set osd_nheading_pos = 234
 set osd_nvario_pos = 234
 set osd_esc_tmp_pos = 234
@@ -867,8 +867,8 @@ set osd_adjustment_range_pos = 234
 set osd_flip_arrow_pos = 234
 set osd_core_temp_pos = 234
 set osd_log_status_pos = 234
-set osd_stick_overlay_left_pos = 234
-set osd_stick_overlay_right_pos = 234
+set osd_stick_overlay_left_pos = 4417
+set osd_stick_overlay_right_pos = 4438
 set osd_stick_overlay_radio_mode = 2
 set osd_rate_profile_name_pos = 234
 set osd_pid_profile_name_pos = 234
@@ -919,7 +919,7 @@ set scheduler_optimize_rate = AUTO
 set enable_stick_arming = OFF
 set vtx_band = 5
 set vtx_channel = 4
-set vtx_power = 2
+set vtx_power = 3
 set vtx_low_power_disarm = OFF
 set vtx_freq = 5769
 set vtx_pit_mode_freq = 0
