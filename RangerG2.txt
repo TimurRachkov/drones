@@ -254,8 +254,8 @@ mode_color 6 10 0
 aux 0 0 0 1500 2100
 aux 1 1 5 1300 1700
 aux 2 3 5 1700 2100
-aux 3 11 3 1300 1700
-aux 4 10 3 1700 2100
+aux 3 11 3 1700 2100
+aux 4 10 3 1300 1700
 aux 5 45 5 1700 2100
 aux 6 12 2 1700 2100
 aux 7 37 4 1700 2100
@@ -1126,9 +1126,9 @@ set throttle_tilt_comp_str = 0
 set name = 
 set mode_range_logic_operator = OR
 set stats = ON
-set stats_total_time = 29715
-set stats_total_dist = 301502
-set stats_total_energy = 1010371
+set stats_total_time = 29742
+set stats_total_dist = 301503
+set stats_total_energy = 1010434
 set tz_offset = 0
 set tz_automatic_dst = OFF
 set display_force_sw_blink = OFF
