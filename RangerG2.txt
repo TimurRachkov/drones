@@ -1,7 +1,4 @@
-
-Entering CLI Mode, type 'exit' to return, or 'help'
-
-# dump
+dump
 
 # version
 # INAV/MATEKF411 2.5.1 Jun 16 2020 / 12:51:25 (098a574b3)
@@ -1027,7 +1024,7 @@ set nav_fw_bank_angle = 30
 set nav_fw_climb_angle = 20
 set nav_fw_dive_angle = 15
 set nav_fw_pitch2thr = 10
-set nav_fw_loiter_radius = 5000
+set nav_fw_loiter_radius = 6000
 set nav_fw_cruise_speed = 0
 set nav_fw_control_smoothness = 5
 set nav_fw_land_dive_angle = 2
@@ -1035,7 +1032,7 @@ set nav_fw_launch_velocity = 300
 set nav_fw_launch_accel = 1863
 set nav_fw_launch_max_angle = 45
 set nav_fw_launch_detect_time = 40
-set nav_fw_launch_thr = 1825
+set nav_fw_launch_thr = 1750
 set nav_fw_launch_idle_thr = 1000
 set nav_fw_launch_motor_delay = 500
 set nav_fw_launch_spinup_time = 1000
@@ -1126,9 +1123,9 @@ set throttle_tilt_comp_str = 0
 set name = 
 set mode_range_logic_operator = OR
 set stats = ON
-set stats_total_time = 29742
-set stats_total_dist = 301503
-set stats_total_energy = 1010434
+set stats_total_time = 31580
+set stats_total_dist = 325685
+set stats_total_energy = 1057742
 set tz_offset = 0
 set tz_automatic_dst = OFF
 set display_force_sw_blink = OFF
