@@ -1,4 +1,7 @@
-dump
+
+Entering CLI Mode, type 'exit' to return, or 'help'
+
+# dump
 
 # version
 # INAV/MATEKF405SE 2.5.1 Jun 16 2020 / 12:50:26 (098a574b3)
@@ -876,10 +879,10 @@ set blackbox_device = SDCARD
 set sdcard_detect_inverted = OFF
 set max_throttle = 1850
 set min_command = 1000
-set motor_pwm_rate = 2000
+set motor_pwm_rate = 400
 set motor_accel_time = 0
 set motor_decel_time = 0
-set motor_pwm_protocol = MULTISHOT
+set motor_pwm_protocol = STANDARD
 set throttle_scale =  1.000
 set throttle_idle =  15.000
 set motor_poles = 14
@@ -1127,9 +1130,9 @@ set throttle_tilt_comp_str = 0
 set name = Mini Talon
 set mode_range_logic_operator = OR
 set stats = ON
-set stats_total_time = 0
+set stats_total_time = 12
 set stats_total_dist = 0
-set stats_total_energy = 0
+set stats_total_energy = 95
 set tz_offset = 0
 set tz_automatic_dst = OFF
 set display_force_sw_blink = OFF
