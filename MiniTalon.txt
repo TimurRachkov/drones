@@ -1,7 +1,4 @@
-
-Entering CLI Mode, type 'exit' to return, or 'help'
-
-# dump
+dump
 
 # version
 # INAV/MATEKF405SE 2.5.1 Jun 16 2020 / 12:50:26 (098a574b3)
@@ -112,6 +109,7 @@ feature GPS
 feature TELEMETRY
 feature CURRENT_METER
 feature AIRMODE
+feature PWM_OUTPUT_ENABLE
 feature OSD
 
 # beeper
@@ -878,10 +876,10 @@ set blackbox_device = SDCARD
 set sdcard_detect_inverted = OFF
 set max_throttle = 1850
 set min_command = 1000
-set motor_pwm_rate = 400
+set motor_pwm_rate = 2000
 set motor_accel_time = 0
 set motor_decel_time = 0
-set motor_pwm_protocol = STANDARD
+set motor_pwm_protocol = MULTISHOT
 set throttle_scale =  1.000
 set throttle_idle =  15.000
 set motor_poles = 14
