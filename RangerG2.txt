@@ -1,4 +1,7 @@
-dump
+
+Entering CLI Mode, type 'exit' to return, or 'help'
+
+# dump
 
 # version
 # INAV/MATEKF411 2.5.1 Jun 16 2020 / 12:51:25 (098a574b3)
@@ -1203,7 +1206,7 @@ set nav_mc_vel_xy_dterm_lpf_hz =  2.000
 set nav_fw_pos_z_p = 40
 set nav_fw_pos_z_i = 5
 set nav_fw_pos_z_d = 10
-set nav_fw_pos_xy_p = 95
+set nav_fw_pos_xy_p = 85
 set nav_fw_pos_xy_i = 5
 set nav_fw_pos_xy_d = 8
 set nav_fw_heading_p = 60
