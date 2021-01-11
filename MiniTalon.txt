@@ -1,7 +1,4 @@
-
-Entering CLI Mode, type 'exit' to return, or 'help'
-
-# dump
+dump
 
 # version
 # INAV/MATEKF405SE 2.5.1 Jun 16 2020 / 12:50:26 (098a574b3)
@@ -28,16 +25,18 @@ smix 2 4 1 -100 0 -1
 smix 3 5 1 100 0 -1
 smix 4 4 2 -100 0 -1
 smix 5 5 2 -100 0 -1
+smix 6 6 19 100 0 -1
+smix 7 7 20 100 0 -1
 
 # servo
 servo 0 1000 2000 1500 100
 servo 1 1000 2000 1500 100
 servo 2 1000 2000 1500 100
 servo 3 1000 2000 1500 100
-servo 4 1000 2000 1560 100
-servo 5 1000 2000 1440 100
+servo 4 1000 2000 1580 100
+servo 5 1000 2000 1420 100
 servo 6 1000 2000 1500 100
-servo 7 1000 2000 1500 100
+servo 7 1000 2000 1650 100
 servo 8 1000 2000 1500 100
 servo 9 1000 2000 1500 100
 servo 10 1000 2000 1500 100
