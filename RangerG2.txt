@@ -1,7 +1,4 @@
-
-Entering CLI Mode, type 'exit' to return, or 'help'
-
-# dump
+dump
 
 # version
 # INAV/MATEKF411 2.5.1 Jun 16 2020 / 12:51:25 (098a574b3)

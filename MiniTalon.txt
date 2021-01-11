@@ -1,4 +1,7 @@
-dump
+
+Entering CLI Mode, type 'exit' to return, or 'help'
+
+# dump
 
 # version
 # INAV/MATEKF405SE 2.5.1 Jun 16 2020 / 12:50:26 (098a574b3)
@@ -111,6 +114,7 @@ feature CURRENT_METER
 feature AIRMODE
 feature PWM_OUTPUT_ENABLE
 feature OSD
+feature FW_LAUNCH
 
 # beeper
 beeper RUNTIME_CALIBRATION
@@ -896,8 +900,8 @@ set failsafe_fw_yaw_rate = -45
 set failsafe_min_distance = 0
 set failsafe_min_distance_procedure = DROP
 set failsafe_mission = ON
-set align_board_roll = 0
-set align_board_pitch = 0
+set align_board_roll = -27
+set align_board_pitch = 40
 set align_board_yaw = 2700
 set vbat_meter_type = ADC
 set vbat_scale = 1100
