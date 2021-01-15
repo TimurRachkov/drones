@@ -32,7 +32,7 @@ smix 7 7 20 100 0 -1
 servo 0 1000 2000 1500 100
 servo 1 1000 2000 1500 100
 servo 2 1000 2000 1500 100
-servo 3 1000 2000 1500 100
+servo 3 1000 2000 1570 100
 servo 4 1000 2000 1580 100
 servo 5 1000 2000 1420 100
 servo 6 1000 2000 1500 100
@@ -1130,9 +1130,9 @@ set throttle_tilt_comp_str = 0
 set name = Mini Talon
 set mode_range_logic_operator = OR
 set stats = ON
-set stats_total_time = 12
+set stats_total_time = 58
 set stats_total_dist = 0
-set stats_total_energy = 95
+set stats_total_energy = 445
 set tz_offset = 0
 set tz_automatic_dst = OFF
 set display_force_sw_blink = OFF
