@@ -1,4 +1,7 @@
-dump
+
+Entering CLI Mode, type 'exit' to return, or 'help'
+
+# dump
 
 # version
 # INAV/MATEKF405SE 2.5.1 Jun 16 2020 / 12:50:26 (098a574b3)
@@ -27,14 +30,16 @@ smix 4 4 2 -100 0 -1
 smix 5 5 2 -100 0 -1
 smix 6 6 19 100 0 -1
 smix 7 7 20 100 0 -1
+smix 8 2 14 -50 0 -1
+smix 9 3 14 50 0 -1
 
 # servo
 servo 0 1000 2000 1500 100
 servo 1 1000 2000 1500 100
 servo 2 1000 2000 1500 100
-servo 3 1000 2000 1570 100
-servo 4 1000 2000 1580 100
-servo 5 1000 2000 1420 100
+servo 3 1000 2000 1500 100
+servo 4 1000 2000 1550 100
+servo 5 1000 2000 1440 100
 servo 6 1000 2000 1500 100
 servo 7 1000 2000 1650 100
 servo 8 1000 2000 1500 100
@@ -914,7 +919,7 @@ set rth_energy_margin = 5
 set thr_comp_weight =  1.000
 set motor_direction_inverted = OFF
 set platform_type = AIRPLANE
-set has_flaps = OFF
+set has_flaps = ON
 set model_preview_type = 28
 set fw_min_throttle_down_pitch = 0
 set 3d_deadband_low = 1406
