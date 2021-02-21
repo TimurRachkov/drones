@@ -1,0 +1,202 @@
+diff
+
+# version
+# INAV/MATEKF411 2.5.1 Jun 16 2020 / 12:51:25 (098a574b3)
+# GCC-9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599]
+
+# start the command batch
+batch start
+
+# resources
+
+# mixer
+
+mmix reset
+
+mmix 0  1.000  0.000  0.000  0.000
+mmix 1  1.000  0.000  0.000  0.000
+
+# servo mix
+smix reset
+
+smix 0 3 0 100 0 -1
+smix 1 4 2 100 0 -1
+smix 2 2 1 100 0 -1
+smix 3 5 0 100 0 -1
+smix 4 3 14 100 50 -1
+smix 5 5 14 -100 50 -1
+
+# servo
+servo 2 1000 2000 1500 -100
+servo 3 1000 2000 1500 -100
+servo 5 1000 2000 1500 -100
+
+# logic
+
+# gvar
+
+# gf
+
+# feature
+feature MOTOR_STOP
+feature GPS
+feature PWM_OUTPUT_ENABLE
+feature FW_LAUNCH
+
+# beeper
+
+# map
+
+# serial
+serial 1 2 115200 57600 0 115200
+serial 30 2048 115200 115200 0 115200
+
+# led
+
+# color
+
+# mode_color
+
+# aux
+aux 0 0 0 1500 2100
+aux 1 1 5 1300 1700
+aux 2 3 5 1700 2100
+aux 3 11 3 1700 2100
+aux 4 10 3 1300 1700
+aux 5 45 5 1700 2100
+aux 6 12 2 1700 2100
+aux 7 37 4 1700 2100
+aux 8 21 4 1300 1700
+aux 9 34 6 1925 2025
+aux 10 13 6 975 1075
+aux 11 42 4 1300 1700
+
+# adjrange
+
+# rxrange
+
+# temp_sensor
+
+# wp
+#wp 0 invalid
+
+# osd_layout
+osd_layout 0 0 17 8 V
+osd_layout 0 1 12 14 V
+osd_layout 0 2 0 0 V
+osd_layout 0 6 1 0 V
+osd_layout 0 7 3 4 V
+osd_layout 0 9 22 3 H
+osd_layout 0 10 21 1 V
+osd_layout 0 11 23 14 V
+osd_layout 0 12 2 14 V
+osd_layout 0 13 24 6 V
+osd_layout 0 14 3 7 V
+osd_layout 0 15 24 5 V
+osd_layout 0 20 18 0 V
+osd_layout 0 21 7 0 V
+osd_layout 0 22 14 11 V
+osd_layout 0 23 2 8 V
+osd_layout 0 24 12 2 V
+osd_layout 0 25 23 5 V
+osd_layout 0 26 24 7 V
+osd_layout 0 28 1 0 H
+osd_layout 0 31 3 6 V
+osd_layout 0 32 9 8 V
+osd_layout 0 33 22 4 V
+osd_layout 0 34 10 3 V
+osd_layout 0 35 24 8 V
+osd_layout 0 41 24 9 V
+osd_layout 0 42 24 10 V
+osd_layout 0 45 0 0 V
+osd_layout 0 100 12 3 H
+osd_layout 0 105 24 0 H
+osd_layout 0 107 17 14 H
+osd_layout 1 0 23 0 V
+osd_layout 1 1 12 0 V
+osd_layout 1 7 13 14 V
+osd_layout 1 13 23 8 V
+osd_layout 1 15 23 7 V
+osd_layout 1 16 2 8 V
+osd_layout 1 17 2 7 V
+osd_layout 1 18 2 9 V
+osd_layout 1 30 2 12 V
+osd_layout 1 32 12 1 V
+osd_layout 1 62 3 3 V
+osd_layout 1 63 3 4 V
+
+# master
+set gyro_hardware_lpf = 188HZ
+set acc_hardware = MPU6000
+set acczero_x = 52
+set acczero_y = -28
+set acczero_z = -82
+set accgain_x = 4105
+set accgain_y = 4072
+set accgain_z = 4060
+set mag_hardware = NONE
+set baro_hardware = BMP280
+set pitot_hardware = NONE
+set rssi_channel = 12
+set serialrx_provider = CRSF
+set failsafe_procedure = RTH
+set align_board_pitch = 30
+set platform_type = AIRPLANE
+set has_flaps = ON
+set model_preview_type = 14
+set small_angle = 180
+set applied_defaults = 3
+set gps_sbas_mode = AUTO
+set nav_extra_arming_safety = OFF
+set nav_rth_altitude = 5000
+set nav_fw_cruise_thr = 1600
+set nav_fw_min_thr = 1550
+set nav_fw_bank_angle = 30
+set nav_fw_loiter_radius = 8000
+set nav_fw_control_smoothness = 5
+set nav_fw_launch_thr = 1730
+set nav_fw_launch_spinup_time = 1000
+set nav_fw_launch_timeout = 20000
+set nav_fw_launch_climb_angle = 23
+set osd_rssi_alarm = 70
+set osd_time_alarm = 20
+set osd_alt_alarm = 150
+set osd_artificial_horizon_max_pitch = 35
+set osd_crosshairs_style = AIRCRAFT
+set stats = ON
+set stats_total_time = 32639
+set stats_total_dist = 341141
+set stats_total_energy = 1086738
+set vtx_band = 5
+set vtx_channel = 4
+set vtx_power = 3
+set vtx_low_power_disarm = ON
+
+# profile
+profile 1
+
+set fw_p_pitch = 12
+set fw_i_pitch = 18
+set fw_ff_pitch = 110
+set fw_p_roll = 10
+set fw_i_roll = 15
+set fw_ff_roll = 45
+set fw_p_yaw = 12
+set fw_i_yaw = 20
+set fw_ff_yaw = 174
+set yaw_lpf_hz = 30
+set nav_fw_pos_xy_p = 95
+set roll_rate = 31
+set yaw_rate = 8
+
+# battery_profile
+battery_profile 1
+
+set vbat_max_cell_voltage = 430
+set vbat_min_cell_voltage = 250
+set vbat_warning_cell_voltage = 300
+
+# end the command batch
+batch end
+
+# 
