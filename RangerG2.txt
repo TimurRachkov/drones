@@ -449,8 +449,8 @@ osd_layout 0 82 2 12 H
 osd_layout 0 83 2 12 H
 osd_layout 0 84 2 12 H
 osd_layout 0 85 23 1 H
-osd_layout 0 86 2 10 V
-osd_layout 0 87 2 11 V
+osd_layout 0 86 23 11 V
+osd_layout 0 87 23 12 H
 osd_layout 0 88 19 4 H
 osd_layout 0 89 19 5 H
 osd_layout 0 90 19 6 H
@@ -470,7 +470,7 @@ osd_layout 0 103 12 7 H
 osd_layout 0 104 0 0 H
 osd_layout 0 105 24 0 H
 osd_layout 0 106 1 2 H
-osd_layout 0 107 2 12 V
+osd_layout 0 107 2 12 H
 osd_layout 1 0 23 0 V
 osd_layout 1 1 12 0 V
 osd_layout 1 2 0 0 H
@@ -1123,9 +1123,9 @@ set throttle_tilt_comp_str = 0
 set name = 
 set mode_range_logic_operator = OR
 set stats = ON
-set stats_total_time = 37505
+set stats_total_time = 37518
 set stats_total_dist = 400413
-set stats_total_energy = 1204469
+set stats_total_energy = 1204513
 set tz_offset = 0
 set tz_automatic_dst = OFF
 set display_force_sw_blink = OFF
