@@ -256,11 +256,11 @@ aux 4 10 3 1300 1700
 aux 5 30 1 1500 2100
 aux 6 45 5 1700 2100
 aux 7 12 2 1700 2100
-aux 8 37 4 1700 2100
-aux 9 21 4 1300 1700
-aux 10 34 6 1925 2025
-aux 11 13 6 975 1075
-aux 12 42 4 1300 1700
+aux 8 21 4 1700 2100
+aux 9 34 6 1925 2025
+aux 10 13 6 975 1075
+aux 11 42 4 1700 2100
+aux 12 0 0 900 900
 aux 13 0 0 900 900
 aux 14 0 0 900 900
 aux 15 0 0 900 900
@@ -449,8 +449,8 @@ osd_layout 0 82 2 12 H
 osd_layout 0 83 2 12 H
 osd_layout 0 84 2 12 H
 osd_layout 0 85 23 1 H
-osd_layout 0 86 19 2 H
-osd_layout 0 87 19 3 H
+osd_layout 0 86 2 10 V
+osd_layout 0 87 2 11 V
 osd_layout 0 88 19 4 H
 osd_layout 0 89 19 5 H
 osd_layout 0 90 19 6 H
@@ -470,7 +470,7 @@ osd_layout 0 103 12 7 H
 osd_layout 0 104 0 0 H
 osd_layout 0 105 24 0 H
 osd_layout 0 106 1 2 H
-osd_layout 0 107 17 14 H
+osd_layout 0 107 2 12 V
 osd_layout 1 0 23 0 V
 osd_layout 1 1 12 0 V
 osd_layout 1 2 0 0 H
@@ -1123,9 +1123,9 @@ set throttle_tilt_comp_str = 0
 set name = 
 set mode_range_logic_operator = OR
 set stats = ON
-set stats_total_time = 35578
-set stats_total_dist = 382344
-set stats_total_energy = 1166355
+set stats_total_time = 37505
+set stats_total_dist = 400413
+set stats_total_energy = 1204469
 set tz_offset = 0
 set tz_automatic_dst = OFF
 set display_force_sw_blink = OFF
