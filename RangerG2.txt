@@ -1,6 +1,4 @@
-'
-
-# dump
+dump
 
 # version
 # INAV/MATEKF411 2.5.1 Jun 16 2020 / 12:51:25 (098a574b3)
@@ -365,8 +363,8 @@ wp 58 0 0 0 0 0 0 0 0
 wp 59 0 0 0 0 0 0 0 0
 
 # osd_layout
-osd_layout 0 0 17 8 V
-osd_layout 0 1 12 14 V
+osd_layout 0 0 23 2 V
+osd_layout 0 1 18 14 V
 osd_layout 0 2 0 0 V
 osd_layout 0 3 8 6 V
 osd_layout 0 4 8 6 V
@@ -397,7 +395,7 @@ osd_layout 0 28 1 0 H
 osd_layout 0 29 23 12 H
 osd_layout 0 30 1 13 V
 osd_layout 0 31 3 6 V
-osd_layout 0 32 9 8 V
+osd_layout 0 32 8 14 V
 osd_layout 0 33 22 4 V
 osd_layout 0 34 10 3 V
 osd_layout 0 35 24 8 V
@@ -451,7 +449,7 @@ osd_layout 0 82 2 12 H
 osd_layout 0 83 2 12 H
 osd_layout 0 84 2 12 H
 osd_layout 0 85 23 1 H
-osd_layout 0 86 23 11 V
+osd_layout 0 86 23 11 H
 osd_layout 0 87 23 12 H
 osd_layout 0 88 19 4 H
 osd_layout 0 89 19 5 H
@@ -1034,7 +1032,7 @@ set nav_fw_launch_velocity = 300
 set nav_fw_launch_accel = 1863
 set nav_fw_launch_max_angle = 45
 set nav_fw_launch_detect_time = 40
-set nav_fw_launch_thr = 1700
+set nav_fw_launch_thr = 1680
 set nav_fw_launch_idle_thr = 1000
 set nav_fw_launch_motor_delay = 500
 set nav_fw_launch_spinup_time = 1000
@@ -1079,7 +1077,7 @@ set osd_row_shiftdown = 0
 set osd_units = METRIC
 set osd_stats_energy_unit = MAH
 set osd_rssi_alarm = 70
-set osd_time_alarm = 20
+set osd_time_alarm = 30
 set osd_alt_alarm = 150
 set osd_dist_alarm = 1000
 set osd_neg_alt_alarm = 5
@@ -1125,9 +1123,9 @@ set throttle_tilt_comp_str = 0
 set name = Ranger G2
 set mode_range_logic_operator = OR
 set stats = ON
-set stats_total_time = 37518
-set stats_total_dist = 400413
-set stats_total_energy = 1204513
+set stats_total_time = 42289
+set stats_total_dist = 455426
+set stats_total_energy = 1313083
 set tz_offset = 0
 set tz_automatic_dst = OFF
 set display_force_sw_blink = OFF
