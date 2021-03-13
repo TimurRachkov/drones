@@ -1,7 +1,4 @@
-
-Entering CLI Mode, type 'exit' to return, or 'help'
-
-# dump
+dump
 
 # version
 # INAV/MATEKF405SE 2.5.1 Jun 16 2020 / 12:50:26 (098a574b3)
@@ -264,10 +261,10 @@ aux 1 1 5 1300 1700
 aux 2 3 5 1700 2100
 aux 3 11 3 1700 2100
 aux 4 10 3 1300 1700
-aux 5 45 5 1700 2100
-aux 6 12 2 1700 2100
-aux 7 37 4 1700 2100
-aux 8 21 4 1300 1700
+aux 5 30 1 1500 2100
+aux 6 45 5 1700 2100
+aux 7 12 2 1700 2100
+aux 8 21 4 1700 2100
 aux 9 34 6 1925 2025
 aux 10 13 6 975 1075
 aux 11 42 4 1300 1700
@@ -1044,7 +1041,7 @@ set nav_fw_launch_velocity = 300
 set nav_fw_launch_accel = 1863
 set nav_fw_launch_max_angle = 45
 set nav_fw_launch_detect_time = 40
-set nav_fw_launch_thr = 1850
+set nav_fw_launch_thr = 1800
 set nav_fw_launch_idle_thr = 1000
 set nav_fw_launch_motor_delay = 500
 set nav_fw_launch_spinup_time = 1000
@@ -1135,9 +1132,9 @@ set throttle_tilt_comp_str = 0
 set name = Mini Talon
 set mode_range_logic_operator = OR
 set stats = ON
-set stats_total_time = 58
+set stats_total_time = 115
 set stats_total_dist = 0
-set stats_total_energy = 445
+set stats_total_energy = 1014
 set tz_offset = 0
 set tz_automatic_dst = OFF
 set display_force_sw_blink = OFF
@@ -1153,7 +1150,7 @@ set log_topics = 0
 set esc_sensor_listen_only = OFF
 
 # profile
-profile 1
+profile 3
 
 set mc_p_pitch = 40
 set mc_i_pitch = 30
@@ -1167,15 +1164,15 @@ set mc_d_yaw = 0
 set mc_p_level = 20
 set mc_i_level = 15
 set mc_d_level = 75
-set fw_p_pitch = 5
-set fw_i_pitch = 7
+set fw_p_pitch = 10
+set fw_i_pitch = 8
 set fw_ff_pitch = 50
-set fw_p_roll = 5
-set fw_i_roll = 7
+set fw_p_roll = 10
+set fw_i_roll = 8
 set fw_ff_roll = 50
-set fw_p_yaw = 6
-set fw_i_yaw = 10
-set fw_ff_yaw = 60
+set fw_p_yaw = 10
+set fw_i_yaw = 15
+set fw_ff_yaw = 40
 set fw_p_level = 20
 set fw_i_level = 5
 set fw_d_level = 75
@@ -1186,7 +1183,7 @@ set dterm_lpf_type = BIQUAD
 set dterm_lpf2_hz = 0
 set dterm_lpf2_type = BIQUAD
 set use_dterm_fir_filter = ON
-set yaw_lpf_hz = 30
+set yaw_lpf_hz = 0
 set dterm_setpoint_weight =  1.000
 set fw_iterm_throw_limit = 165
 set fw_loiter_direction = RIGHT
@@ -1241,8 +1238,8 @@ set fw_tpa_time_constant = 0
 set rc_expo = 70
 set rc_yaw_expo = 20
 set roll_rate = 20
-set pitch_rate = 15
-set yaw_rate = 9
+set pitch_rate = 20
+set yaw_rate = 20
 set manual_rc_expo = 70
 set manual_rc_yaw_expo = 20
 set manual_roll_rate = 100
