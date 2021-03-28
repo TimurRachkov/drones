@@ -267,7 +267,7 @@ aux 7 12 2 1700 2100
 aux 8 21 4 1700 2100
 aux 9 34 6 1925 2025
 aux 10 13 6 975 1075
-aux 11 42 4 1300 1700
+aux 11 42 4 1700 2100
 aux 12 0 0 900 900
 aux 13 0 0 900 900
 aux 14 0 0 900 900
@@ -371,7 +371,7 @@ wp 58 0 0 0 0 0 0 0 0
 wp 59 0 0 0 0 0 0 0 0
 
 # osd_layout
-osd_layout 0 0 17 8 V
+osd_layout 0 0 18 14 V
 osd_layout 0 1 12 14 V
 osd_layout 0 2 0 0 V
 osd_layout 0 3 8 6 V
@@ -395,7 +395,7 @@ osd_layout 0 20 18 0 V
 osd_layout 0 21 7 0 V
 osd_layout 0 22 14 11 V
 osd_layout 0 23 2 8 V
-osd_layout 0 24 12 2 V
+osd_layout 0 24 12 1 V
 osd_layout 0 25 23 5 V
 osd_layout 0 26 24 7 V
 osd_layout 0 27 3 5 H
@@ -403,9 +403,9 @@ osd_layout 0 28 1 0 H
 osd_layout 0 29 23 12 H
 osd_layout 0 30 1 13 V
 osd_layout 0 31 3 6 V
-osd_layout 0 32 9 8 V
+osd_layout 0 32 7 14 V
 osd_layout 0 33 22 4 V
-osd_layout 0 34 10 3 V
+osd_layout 0 34 10 2 V
 osd_layout 0 35 24 8 V
 osd_layout 0 36 1 5 H
 osd_layout 0 37 1 6 H
@@ -893,7 +893,7 @@ set failsafe_recovery_delay = 5
 set failsafe_off_delay = 200
 set failsafe_throttle = 1000
 set failsafe_throttle_low_delay = 0
-set failsafe_procedure = SET-THR
+set failsafe_procedure = RTH
 set failsafe_stick_threshold = 50
 set failsafe_fw_roll_angle = -200
 set failsafe_fw_pitch_angle = 100
@@ -1086,7 +1086,7 @@ set osd_row_shiftdown = 0
 set osd_units = METRIC
 set osd_stats_energy_unit = MAH
 set osd_rssi_alarm = 70
-set osd_time_alarm = 20
+set osd_time_alarm = 50
 set osd_alt_alarm = 150
 set osd_dist_alarm = 1000
 set osd_neg_alt_alarm = 5
@@ -1132,9 +1132,9 @@ set throttle_tilt_comp_str = 0
 set name = Mini Talon
 set mode_range_logic_operator = OR
 set stats = ON
-set stats_total_time = 115
-set stats_total_dist = 0
-set stats_total_energy = 1014
+set stats_total_time = 2640
+set stats_total_dist = 36702
+set stats_total_energy = 69252
 set tz_offset = 0
 set tz_automatic_dst = OFF
 set display_force_sw_blink = OFF
@@ -1167,12 +1167,12 @@ set mc_d_level = 75
 set fw_p_pitch = 10
 set fw_i_pitch = 8
 set fw_ff_pitch = 50
-set fw_p_roll = 10
-set fw_i_roll = 8
-set fw_ff_roll = 50
-set fw_p_yaw = 10
-set fw_i_yaw = 15
-set fw_ff_yaw = 40
+set fw_p_roll = 6
+set fw_i_roll = 12
+set fw_ff_roll = 58
+set fw_p_yaw = 4
+set fw_i_yaw = 9
+set fw_ff_yaw = 42
 set fw_p_level = 20
 set fw_i_level = 5
 set fw_d_level = 75
@@ -1253,8 +1253,8 @@ battery_profile 1
 set bat_cells = 0
 set vbat_cell_detect_voltage = 430
 set vbat_max_cell_voltage = 420
-set vbat_min_cell_voltage = 330
-set vbat_warning_cell_voltage = 350
+set vbat_min_cell_voltage = 250
+set vbat_warning_cell_voltage = 300
 set battery_capacity = 0
 set battery_capacity_warning = 0
 set battery_capacity_critical = 0
