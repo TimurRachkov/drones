@@ -363,8 +363,8 @@ wp 58 0 0 0 0 0 0 0 0
 wp 59 0 0 0 0 0 0 0 0
 
 # osd_layout
-osd_layout 0 0 23 2 V
-osd_layout 0 1 18 14 V
+osd_layout 0 0 18 14 V
+osd_layout 0 1 13 14 V
 osd_layout 0 2 0 0 V
 osd_layout 0 3 8 6 V
 osd_layout 0 4 8 6 V
@@ -387,7 +387,7 @@ osd_layout 0 20 18 0 V
 osd_layout 0 21 7 0 V
 osd_layout 0 22 14 11 V
 osd_layout 0 23 2 8 V
-osd_layout 0 24 12 2 V
+osd_layout 0 24 12 1 V
 osd_layout 0 25 23 5 V
 osd_layout 0 26 24 7 V
 osd_layout 0 27 3 5 H
@@ -397,7 +397,7 @@ osd_layout 0 30 1 13 V
 osd_layout 0 31 3 6 V
 osd_layout 0 32 8 14 V
 osd_layout 0 33 22 4 V
-osd_layout 0 34 10 3 V
+osd_layout 0 34 10 2 V
 osd_layout 0 35 24 8 V
 osd_layout 0 36 1 5 H
 osd_layout 0 37 1 6 H
@@ -928,7 +928,7 @@ set small_angle = 180
 set imu_acc_ignore_rate = 0
 set imu_acc_ignore_slope = 0
 set fixed_wing_auto_arm = OFF
-set disarm_kill_switch = OFF
+set disarm_kill_switch = ON
 set switch_disarm_delay = 250
 set applied_defaults = 3
 set rpm_gyro_filter_enabled = OFF
@@ -1017,14 +1017,14 @@ set nav_mc_braking_boost_disengage_speed = 100
 set nav_mc_braking_bank_angle = 40
 set nav_mc_pos_deceleration_time = 120
 set nav_mc_pos_expo = 10
-set nav_fw_cruise_thr = 1600
-set nav_fw_min_thr = 1550
+set nav_fw_cruise_thr = 1500
+set nav_fw_min_thr = 1400
 set nav_fw_max_thr = 1700
 set nav_fw_bank_angle = 30
 set nav_fw_climb_angle = 20
 set nav_fw_dive_angle = 15
 set nav_fw_pitch2thr = 10
-set nav_fw_loiter_radius = 8000
+set nav_fw_loiter_radius = 7000
 set nav_fw_cruise_speed = 0
 set nav_fw_control_smoothness = 5
 set nav_fw_land_dive_angle = 2
@@ -1123,9 +1123,9 @@ set throttle_tilt_comp_str = 0
 set name = Ranger G2
 set mode_range_logic_operator = OR
 set stats = ON
-set stats_total_time = 44575
-set stats_total_dist = 485372
-set stats_total_energy = 1386589
+set stats_total_time = 47240
+set stats_total_dist = 525273
+set stats_total_energy = 1467428
 set tz_offset = 0
 set tz_automatic_dst = OFF
 set display_force_sw_blink = OFF
@@ -1155,7 +1155,7 @@ set mc_d_yaw = 0
 set mc_p_level = 20
 set mc_i_level = 15
 set mc_d_level = 75
-set fw_p_pitch = 12
+set fw_p_pitch = 10
 set fw_i_pitch = 18
 set fw_ff_pitch = 110
 set fw_p_roll = 10
