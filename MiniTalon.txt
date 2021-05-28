@@ -1,7 +1,4 @@
-
-Entering CLI Mode, type 'exit' to return, or 'help'
-
-# dump
+dump
 
 # version
 # INAV/MATEKF405SE 2.5.1 Jun 16 2020 / 12:50:26 (098a574b3)
@@ -1142,8 +1139,8 @@ set tz_offset = 0
 set tz_automatic_dst = OFF
 set display_force_sw_blink = OFF
 set vtx_halfduplex = ON
-set vtx_band = 4
-set vtx_channel = 2
+set vtx_band = 5
+set vtx_channel = 5
 set vtx_power = 4
 set vtx_low_power_disarm = ON
 set vtx_pit_mode_chan = 1
@@ -1255,9 +1252,9 @@ battery_profile 1
 
 set bat_cells = 0
 set vbat_cell_detect_voltage = 430
-set vbat_max_cell_voltage = 420
+set vbat_max_cell_voltage = 430
 set vbat_min_cell_voltage = 250
-set vbat_warning_cell_voltage = 300
+set vbat_warning_cell_voltage = 280
 set battery_capacity = 0
 set battery_capacity_warning = 0
 set battery_capacity_critical = 0
