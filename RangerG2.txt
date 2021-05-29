@@ -1242,7 +1242,7 @@ set fpv_mix_degrees = 0
 battery_profile 1
 
 set bat_cells = 0
-set vbat_cell_detect_voltage = 420
+set vbat_cell_detect_voltage = 430
 set vbat_max_cell_voltage = 430
 set vbat_min_cell_voltage = 250
 set vbat_warning_cell_voltage = 280
