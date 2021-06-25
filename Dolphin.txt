@@ -19,9 +19,9 @@ mmix 1  1.000  0.000  0.000  0.000
 # servo mix
 smix reset
 
-smix 0 3 0 50 0 -1
+smix 0 3 0 -50 0 -1
 smix 1 3 1 50 0 -1
-smix 2 4 0 -50 0 -1
+smix 2 4 0 50 0 -1
 smix 3 4 1 50 0 -1
 
 # servo
@@ -255,9 +255,9 @@ aux 5 30 1 1500 2100
 aux 6 45 5 1700 2100
 aux 7 12 2 1700 2100
 aux 8 21 4 1700 2100
-aux 9 34 6 1925 2025
-aux 10 13 6 975 1075
-aux 11 42 4 1700 2100
+aux 9 13 6 975 1075
+aux 10 42 4 1700 2100
+aux 11 0 0 900 900
 aux 12 0 0 900 900
 aux 13 0 0 900 900
 aux 14 0 0 900 900
@@ -905,7 +905,7 @@ set rth_energy_margin = 5
 set thr_comp_weight =  1.000
 set motor_direction_inverted = OFF
 set platform_type = AIRPLANE
-set has_flaps = ON
+set has_flaps = OFF
 set model_preview_type = 8
 set fw_min_throttle_down_pitch = 0
 set 3d_deadband_low = 1406
@@ -1121,9 +1121,9 @@ set throttle_tilt_comp_str = 0
 set name = Ranger G2
 set mode_range_logic_operator = OR
 set stats = ON
-set stats_total_time = 67604
+set stats_total_time = 0
 set stats_total_dist = 756809
-set stats_total_energy = 2054965
+set stats_total_energy = 0
 set tz_offset = 0
 set tz_automatic_dst = OFF
 set display_force_sw_blink = OFF
@@ -1242,8 +1242,8 @@ battery_profile 1
 set bat_cells = 0
 set vbat_cell_detect_voltage = 430
 set vbat_max_cell_voltage = 430
-set vbat_min_cell_voltage = 250
-set vbat_warning_cell_voltage = 280
+set vbat_min_cell_voltage = 340
+set vbat_warning_cell_voltage = 350
 set battery_capacity = 0
 set battery_capacity_warning = 0
 set battery_capacity_critical = 0
