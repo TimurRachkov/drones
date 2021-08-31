@@ -1,7 +1,4 @@
-
-Entering CLI Mode, type 'exit' to return, or 'help'
-
-# dump
+dump
 
 # version
 # INAV/MATEKF405SE 2.5.1 Jun 16 2020 / 12:50:26 (098a574b3)
@@ -1135,15 +1132,15 @@ set throttle_tilt_comp_str = 0
 set name = Mini Talon
 set mode_range_logic_operator = OR
 set stats = ON
-set stats_total_time = 21614
-set stats_total_dist = 336952
-set stats_total_energy = 600532
+set stats_total_time = 23893
+set stats_total_dist = 372475
+set stats_total_energy = 666912
 set tz_offset = 0
 set tz_automatic_dst = OFF
 set display_force_sw_blink = OFF
 set vtx_halfduplex = ON
 set vtx_band = 5
-set vtx_channel = 7
+set vtx_channel = 5
 set vtx_power = 4
 set vtx_low_power_disarm = ON
 set vtx_pit_mode_chan = 1

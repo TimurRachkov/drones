@@ -1,4 +1,7 @@
-dump
+
+Entering CLI Mode, type 'exit' to return, or 'help'
+
+# dump
 
 # version
 # INAV/MATEKF411 2.5.1 Jun 16 2020 / 12:51:25 (098a574b3)
@@ -1030,7 +1033,7 @@ set nav_fw_launch_velocity = 300
 set nav_fw_launch_accel = 1863
 set nav_fw_launch_max_angle = 45
 set nav_fw_launch_detect_time = 40
-set nav_fw_launch_thr = 1850
+set nav_fw_launch_thr = 1750
 set nav_fw_launch_idle_thr = 1000
 set nav_fw_launch_motor_delay = 500
 set nav_fw_launch_spinup_time = 1000
@@ -1121,9 +1124,9 @@ set throttle_tilt_comp_str = 0
 set name = Dolphin
 set mode_range_logic_operator = OR
 set stats = ON
-set stats_total_time = 2816
-set stats_total_dist = 76936
-set stats_total_energy = 183565
+set stats_total_time = 3458
+set stats_total_dist = 91291
+set stats_total_energy = 224415
 set tz_offset = 0
 set tz_automatic_dst = OFF
 set display_force_sw_blink = OFF
