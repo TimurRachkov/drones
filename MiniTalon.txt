@@ -1,7 +1,4 @@
-
-Entering CLI Mode, type 'exit' to return, or 'help'
-
-# dump
+dump
 
 # version
 # INAV/MATEKF405SE 2.5.1 Jun 16 2020 / 12:50:26 (098a574b3)
@@ -904,8 +901,8 @@ set failsafe_fw_yaw_rate = -45
 set failsafe_min_distance = 0
 set failsafe_min_distance_procedure = DROP
 set failsafe_mission = ON
-set align_board_roll = -27
-set align_board_pitch = 40
+set align_board_roll = 0
+set align_board_pitch = 36
 set align_board_yaw = 2700
 set vbat_meter_type = ADC
 set vbat_scale = 1100
@@ -1029,7 +1026,7 @@ set nav_mc_braking_boost_disengage_speed = 100
 set nav_mc_braking_bank_angle = 40
 set nav_mc_pos_deceleration_time = 120
 set nav_mc_pos_expo = 10
-set nav_fw_cruise_thr = 1600
+set nav_fw_cruise_thr = 1500
 set nav_fw_min_thr = 1200
 set nav_fw_max_thr = 1700
 set nav_fw_bank_angle = 30
@@ -1090,7 +1087,7 @@ set osd_units = METRIC
 set osd_stats_energy_unit = MAH
 set osd_rssi_alarm = 70
 set osd_time_alarm = 60
-set osd_alt_alarm = 150
+set osd_alt_alarm = 8000
 set osd_dist_alarm = 12000
 set osd_neg_alt_alarm = 5
 set osd_current_alarm = 0
@@ -1135,9 +1132,9 @@ set throttle_tilt_comp_str = 0
 set name = Mini Talon
 set mode_range_logic_operator = OR
 set stats = ON
-set stats_total_time = 28507
-set stats_total_dist = 463064
-set stats_total_energy = 872239
+set stats_total_time = 31502
+set stats_total_dist = 519605
+set stats_total_energy = 991474
 set tz_offset = 0
 set tz_automatic_dst = OFF
 set display_force_sw_blink = OFF
