@@ -1,4 +1,7 @@
-dump
+
+Entering CLI Mode, type 'exit' to return, or 'help'
+
+# dump
 
 # version
 # INAV/MATEKF405SE 2.5.1 Jun 16 2020 / 12:50:26 (098a574b3)
@@ -371,7 +374,7 @@ wp 58 0 0 0 0 0 0 0 0
 wp 59 0 0 0 0 0 0 0 0
 
 # osd_layout
-osd_layout 0 0 18 14 V
+osd_layout 0 0 18 1 V
 osd_layout 0 1 12 14 V
 osd_layout 0 2 0 0 V
 osd_layout 0 3 8 6 V
@@ -384,9 +387,9 @@ osd_layout 0 9 22 3 H
 osd_layout 0 10 21 1 V
 osd_layout 0 11 23 14 V
 osd_layout 0 12 2 14 V
-osd_layout 0 13 24 6 V
-osd_layout 0 14 3 7 V
-osd_layout 0 15 24 5 V
+osd_layout 0 13 24 5 V
+osd_layout 0 14 3 6 V
+osd_layout 0 15 24 6 V
 osd_layout 0 16 2 10 H
 osd_layout 0 17 2 11 H
 osd_layout 0 18 2 12 H
@@ -394,7 +397,7 @@ osd_layout 0 19 15 1 H
 osd_layout 0 20 18 0 V
 osd_layout 0 21 7 0 V
 osd_layout 0 22 14 11 V
-osd_layout 0 23 2 8 V
+osd_layout 0 23 2 10 V
 osd_layout 0 24 12 1 V
 osd_layout 0 25 23 5 V
 osd_layout 0 26 24 7 V
@@ -402,18 +405,18 @@ osd_layout 0 27 3 5 H
 osd_layout 0 28 1 0 H
 osd_layout 0 29 23 12 H
 osd_layout 0 30 1 13 V
-osd_layout 0 31 3 6 V
+osd_layout 0 31 3 5 V
 osd_layout 0 32 7 14 V
 osd_layout 0 33 22 4 V
 osd_layout 0 34 10 2 V
-osd_layout 0 35 24 8 V
+osd_layout 0 35 18 14 V
 osd_layout 0 36 1 5 H
 osd_layout 0 37 1 6 H
 osd_layout 0 38 1 7 H
 osd_layout 0 39 1 5 H
 osd_layout 0 40 1 2 H
-osd_layout 0 41 24 9 V
-osd_layout 0 42 24 10 V
+osd_layout 0 41 2 12 V
+osd_layout 0 42 24 12 V
 osd_layout 0 43 0 0 H
 osd_layout 0 44 0 0 H
 osd_layout 0 45 0 0 V
@@ -901,7 +904,7 @@ set failsafe_fw_yaw_rate = -45
 set failsafe_min_distance = 0
 set failsafe_min_distance_procedure = DROP
 set failsafe_mission = ON
-set align_board_roll = 0
+set align_board_roll = 4
 set align_board_pitch = 36
 set align_board_yaw = 2700
 set vbat_meter_type = ADC
@@ -1026,8 +1029,8 @@ set nav_mc_braking_boost_disengage_speed = 100
 set nav_mc_braking_bank_angle = 40
 set nav_mc_pos_deceleration_time = 120
 set nav_mc_pos_expo = 10
-set nav_fw_cruise_thr = 1500
-set nav_fw_min_thr = 1200
+set nav_fw_cruise_thr = 1600
+set nav_fw_min_thr = 1300
 set nav_fw_max_thr = 1700
 set nav_fw_bank_angle = 30
 set nav_fw_climb_angle = 20
@@ -1132,15 +1135,15 @@ set throttle_tilt_comp_str = 0
 set name = Mini Talon
 set mode_range_logic_operator = OR
 set stats = ON
-set stats_total_time = 33276
-set stats_total_dist = 553879
-set stats_total_energy = 1061823
+set stats_total_time = 38471
+set stats_total_dist = 646705
+set stats_total_energy = 1262611
 set tz_offset = 0
 set tz_automatic_dst = OFF
 set display_force_sw_blink = OFF
 set vtx_halfduplex = ON
-set vtx_band = 5
-set vtx_channel = 4
+set vtx_band = 3
+set vtx_channel = 6
 set vtx_power = 4
 set vtx_low_power_disarm = ON
 set vtx_pit_mode_chan = 1
