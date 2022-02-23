@@ -404,7 +404,7 @@ osd_layout 0 29 23 12 H
 osd_layout 0 30 1 13 V
 osd_layout 0 31 3 5 V
 osd_layout 0 32 7 14 V
-osd_layout 0 33 22 4 V
+osd_layout 0 33 22 12 V
 osd_layout 0 34 10 2 V
 osd_layout 0 35 18 14 V
 osd_layout 0 36 1 5 H
@@ -412,8 +412,8 @@ osd_layout 0 37 1 6 H
 osd_layout 0 38 1 7 H
 osd_layout 0 39 1 5 H
 osd_layout 0 40 1 2 H
-osd_layout 0 41 2 12 V
-osd_layout 0 42 24 12 V
+osd_layout 0 41 1 1 V
+osd_layout 0 42 6 1 V
 osd_layout 0 43 0 0 H
 osd_layout 0 44 0 0 H
 osd_layout 0 45 0 0 V
@@ -902,7 +902,7 @@ set failsafe_min_distance = 0
 set failsafe_min_distance_procedure = DROP
 set failsafe_mission = ON
 set align_board_roll = 4
-set align_board_pitch = 36
+set align_board_pitch = 40
 set align_board_yaw = 2700
 set vbat_meter_type = ADC
 set vbat_scale = 1100
@@ -1132,9 +1132,9 @@ set throttle_tilt_comp_str = 0
 set name = Mini Talon
 set mode_range_logic_operator = OR
 set stats = ON
-set stats_total_time = 41447
-set stats_total_dist = 700365
-set stats_total_energy = 1390266
+set stats_total_time = 42883
+set stats_total_dist = 730192
+set stats_total_energy = 1459577
 set tz_offset = 0
 set tz_automatic_dst = OFF
 set display_force_sw_blink = OFF
