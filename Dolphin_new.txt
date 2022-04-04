@@ -1,7 +1,4 @@
-
-Entering CLI Mode, type 'exit' to return, or 'help'
-
-# dump
+dump
 
 # version
 # INAV/MATEKF405SE 2.6.0 Dec  4 2020 / 12:01:03 (cada68e4)
@@ -408,7 +405,7 @@ osd_layout 0 4 8 6 V
 osd_layout 0 5 23 8 H
 osd_layout 0 6 1 0 V
 osd_layout 0 7 3 4 V
-osd_layout 0 8 20 2 H
+osd_layout 0 8 9 15 V
 osd_layout 0 9 22 3 H
 osd_layout 0 10 21 1 V
 osd_layout 0 11 23 14 V
@@ -1219,12 +1216,12 @@ set osd_right_sidebar_scroll_step = 0
 set i2c_speed = 400KHZ
 set debug_mode = NONE
 set throttle_tilt_comp_str = 0
-set name = Dolphin
+set name = Tango
 set mode_range_logic_operator = OR
 set stats = ON
-set stats_total_time = 6724
-set stats_total_dist = 165342
-set stats_total_energy = 345538
+set stats_total_time = 7898
+set stats_total_dist = 196596
+set stats_total_energy = 411698
 set tz_offset = 0
 set tz_automatic_dst = OFF
 set display_force_sw_blink = OFF
