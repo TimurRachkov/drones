@@ -371,21 +371,21 @@ wp 58 0 0 0 0 0 0 0 0
 wp 59 0 0 0 0 0 0 0 0
 
 # osd_layout
-osd_layout 0 0 18 1 V
+osd_layout 0 0 22 15 V
 osd_layout 0 1 12 14 V
 osd_layout 0 2 0 0 V
 osd_layout 0 3 8 6 V
 osd_layout 0 4 8 6 V
 osd_layout 0 5 23 8 H
 osd_layout 0 6 1 0 V
-osd_layout 0 7 3 4 V
-osd_layout 0 8 20 2 H
+osd_layout 0 7 0 15 V
+osd_layout 0 8 9 15 H
 osd_layout 0 9 22 3 H
-osd_layout 0 10 21 1 V
+osd_layout 0 10 21 1 H
 osd_layout 0 11 23 14 V
 osd_layout 0 12 2 14 V
 osd_layout 0 13 24 5 V
-osd_layout 0 14 3 6 V
+osd_layout 0 14 25 15 V
 osd_layout 0 15 24 6 V
 osd_layout 0 16 2 10 H
 osd_layout 0 17 2 11 H
@@ -395,25 +395,25 @@ osd_layout 0 20 18 0 V
 osd_layout 0 21 7 0 V
 osd_layout 0 22 14 11 V
 osd_layout 0 23 2 10 V
-osd_layout 0 24 12 1 V
-osd_layout 0 25 23 5 V
+osd_layout 0 24 4 15 V
+osd_layout 0 25 23 5 H
 osd_layout 0 26 24 7 V
 osd_layout 0 27 3 5 H
 osd_layout 0 28 1 0 H
 osd_layout 0 29 23 12 H
 osd_layout 0 30 1 13 V
-osd_layout 0 31 3 5 V
+osd_layout 0 31 3 5 H
 osd_layout 0 32 7 14 V
 osd_layout 0 33 22 12 V
-osd_layout 0 34 10 2 V
+osd_layout 0 34 10 15 V
 osd_layout 0 35 18 14 V
 osd_layout 0 36 1 5 H
 osd_layout 0 37 1 6 H
 osd_layout 0 38 1 7 H
 osd_layout 0 39 1 5 H
 osd_layout 0 40 1 2 H
-osd_layout 0 41 1 1 V
-osd_layout 0 42 6 1 V
+osd_layout 0 41 1 1 H
+osd_layout 0 42 6 1 H
 osd_layout 0 43 0 0 H
 osd_layout 0 44 0 0 H
 osd_layout 0 45 0 0 V
@@ -1129,12 +1129,12 @@ set osd_ahi_style = DEFAULT
 set i2c_speed = 400KHZ
 set debug_mode = NONE
 set throttle_tilt_comp_str = 0
-set name = Mini Talon
+set name = Tango
 set mode_range_logic_operator = OR
 set stats = ON
-set stats_total_time = 42883
-set stats_total_dist = 730192
-set stats_total_energy = 1459577
+set stats_total_time = 59090
+set stats_total_dist = 1061300
+set stats_total_energy = 2234601
 set tz_offset = 0
 set tz_automatic_dst = OFF
 set display_force_sw_blink = OFF
@@ -1253,8 +1253,8 @@ battery_profile 1
 set bat_cells = 0
 set vbat_cell_detect_voltage = 430
 set vbat_max_cell_voltage = 430
-set vbat_min_cell_voltage = 250
-set vbat_warning_cell_voltage = 280
+set vbat_min_cell_voltage = 330
+set vbat_warning_cell_voltage = 350
 set battery_capacity = 0
 set battery_capacity_warning = 0
 set battery_capacity_critical = 0
