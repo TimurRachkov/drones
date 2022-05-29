@@ -263,10 +263,10 @@ aux 3 11 3 1700 2100
 aux 4 10 3 1300 1700
 aux 5 30 1 1500 2100
 aux 6 45 5 1700 2100
-aux 7 21 4 1700 2100
-aux 8 13 1 1500 2100
-aux 9 42 4 1700 2100
-aux 10 0 0 900 900
+aux 7 12 2 1700 2100
+aux 8 21 4 1700 2100
+aux 9 13 1 1500 2100
+aux 10 42 4 1700 2100
 aux 11 0 0 900 900
 aux 12 0 0 900 900
 aux 13 0 0 900 900
@@ -1167,9 +1167,9 @@ set mc_d_level = 75
 set fw_p_pitch = 10
 set fw_i_pitch = 8
 set fw_ff_pitch = 50
-set fw_p_roll = 6
-set fw_i_roll = 12
-set fw_ff_roll = 58
+set fw_p_roll = 7
+set fw_i_roll = 15
+set fw_ff_roll = 70
 set fw_p_yaw = 4
 set fw_i_yaw = 9
 set fw_ff_yaw = 42
