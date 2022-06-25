@@ -371,21 +371,21 @@ wp 58 0 0 0 0 0 0 0 0
 wp 59 0 0 0 0 0 0 0 0
 
 # osd_layout
-osd_layout 0 0 22 15 V
-osd_layout 0 1 12 14 V
+osd_layout 0 0 18 1 H
+osd_layout 0 1 11 15 V
 osd_layout 0 2 0 0 V
-osd_layout 0 3 8 6 V
+osd_layout 0 3 8 6 H
 osd_layout 0 4 8 6 V
 osd_layout 0 5 23 8 H
-osd_layout 0 6 1 0 V
-osd_layout 0 7 0 15 V
+osd_layout 0 6 1 0 H
+osd_layout 0 7 7 15 V
 osd_layout 0 8 9 15 H
 osd_layout 0 9 22 3 H
 osd_layout 0 10 21 1 H
-osd_layout 0 11 23 14 V
-osd_layout 0 12 2 14 V
-osd_layout 0 13 24 5 V
-osd_layout 0 14 25 15 V
+osd_layout 0 11 13 15 V
+osd_layout 0 12 4 15 V
+osd_layout 0 13 26 5 V
+osd_layout 0 14 18 15 V
 osd_layout 0 15 24 6 V
 osd_layout 0 16 2 10 H
 osd_layout 0 17 2 11 H
@@ -395,25 +395,25 @@ osd_layout 0 20 18 0 V
 osd_layout 0 21 7 0 V
 osd_layout 0 22 14 11 V
 osd_layout 0 23 2 10 V
-osd_layout 0 24 4 15 V
+osd_layout 0 24 25 9 V
 osd_layout 0 25 23 5 H
-osd_layout 0 26 24 7 V
+osd_layout 0 26 26 7 V
 osd_layout 0 27 3 5 H
 osd_layout 0 28 1 0 H
 osd_layout 0 29 23 12 H
 osd_layout 0 30 1 13 V
 osd_layout 0 31 3 5 H
-osd_layout 0 32 7 14 V
-osd_layout 0 33 22 12 V
-osd_layout 0 34 10 15 V
-osd_layout 0 35 18 14 V
+osd_layout 0 32 9 15 V
+osd_layout 0 33 23 11 H
+osd_layout 0 34 10 15 H
+osd_layout 0 35 23 14 H
 osd_layout 0 36 1 5 H
 osd_layout 0 37 1 6 H
 osd_layout 0 38 1 7 H
 osd_layout 0 39 1 5 H
 osd_layout 0 40 1 2 H
-osd_layout 0 41 1 1 H
-osd_layout 0 42 6 1 H
+osd_layout 0 41 18 6 V
+osd_layout 0 42 7 6 V
 osd_layout 0 43 0 0 H
 osd_layout 0 44 0 0 H
 osd_layout 0 45 0 0 V
@@ -1103,7 +1103,7 @@ set osd_baro_temp_alarm_max = 600
 set osd_temp_label_align = LEFT
 set osd_artificial_horizon_reverse_roll = OFF
 set osd_artificial_horizon_max_pitch = 35
-set osd_crosshairs_style = AIRCRAFT
+set osd_crosshairs_style = DEFAULT
 set osd_horizon_offset = 0
 set osd_camera_uptilt = 0
 set osd_camera_fov_h = 135
@@ -1132,9 +1132,9 @@ set throttle_tilt_comp_str = 0
 set name = Tango
 set mode_range_logic_operator = OR
 set stats = ON
-set stats_total_time = 75695
-set stats_total_dist = 1426417
-set stats_total_energy = 3084760
+set stats_total_time = 78824
+set stats_total_dist = 1489058
+set stats_total_energy = 3228010
 set tz_offset = 0
 set tz_automatic_dst = OFF
 set display_force_sw_blink = OFF
@@ -1167,12 +1167,12 @@ set mc_d_level = 75
 set fw_p_pitch = 10
 set fw_i_pitch = 8
 set fw_ff_pitch = 50
-set fw_p_roll = 7
-set fw_i_roll = 15
-set fw_ff_roll = 70
-set fw_p_yaw = 7
-set fw_i_yaw = 15
-set fw_ff_yaw = 68
+set fw_p_roll = 6
+set fw_i_roll = 12
+set fw_ff_roll = 58
+set fw_p_yaw = 4
+set fw_i_yaw = 9
+set fw_ff_yaw = 42
 set fw_p_level = 20
 set fw_i_level = 5
 set fw_d_level = 75
