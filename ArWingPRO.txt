@@ -19,10 +19,10 @@ mmix 1  1.000  0.000  0.000  0.000
 # servo mix
 smix reset
 
-smix 0 4 0 50 0 -1
-smix 1 4 1 -50 0 -1
-smix 2 5 0 50 0 -1
-smix 3 5 1 50 0 -1
+smix 0 4 0 -50 0 -1
+smix 1 4 1 50 0 -1
+smix 2 5 0 -50 0 -1
+smix 3 5 1 -50 0 -1
 smix 4 3 2 100 0 -1
 smix 5 3 2 100 0 -1
 
@@ -974,7 +974,7 @@ set failsafe_fw_yaw_rate = -45
 set failsafe_min_distance = 0
 set failsafe_min_distance_procedure = DROP
 set failsafe_mission = ON
-set align_board_roll = -10
+set align_board_roll = -21
 set align_board_pitch = 0
 set align_board_yaw = 900
 set vbat_meter_type = ADC
@@ -1115,7 +1115,7 @@ set nav_fw_launch_velocity = 300
 set nav_fw_launch_accel = 1863
 set nav_fw_launch_max_angle = 45
 set nav_fw_launch_detect_time = 40
-set nav_fw_launch_thr = 1650
+set nav_fw_launch_thr = 1700
 set nav_fw_launch_idle_thr = 1000
 set nav_fw_launch_motor_delay = 500
 set nav_fw_launch_spinup_time = 1000
@@ -1219,9 +1219,9 @@ set throttle_tilt_comp_str = 0
 set name = Tango
 set mode_range_logic_operator = OR
 set stats = ON
-set stats_total_time = 14116
-set stats_total_dist = 366967
-set stats_total_energy = 785477
+set stats_total_time = 0
+set stats_total_dist = 0
+set stats_total_energy = 0
 set tz_offset = 0
 set tz_automatic_dst = OFF
 set display_force_sw_blink = OFF
@@ -1259,12 +1259,12 @@ set mc_cd_yaw = 60
 set mc_p_level = 20
 set mc_i_level = 15
 set mc_d_level = 75
-set fw_p_pitch = 8
-set fw_i_pitch = 15
-set fw_ff_pitch = 56
-set fw_p_roll = 8
-set fw_i_roll = 15
-set fw_ff_roll = 64
+set fw_p_pitch = 7
+set fw_i_pitch = 14
+set fw_ff_pitch = 67
+set fw_p_roll = 4
+set fw_i_roll = 8
+set fw_ff_roll = 38
 set fw_p_yaw = 17
 set fw_i_yaw = 37
 set fw_ff_yaw = 174
