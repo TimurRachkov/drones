@@ -384,20 +384,20 @@ osd_layout 0 9 22 3 H
 osd_layout 0 10 21 1 H
 osd_layout 0 11 13 15 V
 osd_layout 0 12 4 15 V
-osd_layout 0 13 20 4 V
+osd_layout 0 13 19 4 V
 osd_layout 0 14 18 15 V
 osd_layout 0 15 17 5 V
 osd_layout 0 16 2 10 H
 osd_layout 0 17 2 11 H
 osd_layout 0 18 2 12 H
 osd_layout 0 19 15 1 H
-osd_layout 0 20 18 0 V
-osd_layout 0 21 7 0 V
+osd_layout 0 20 20 0 V
+osd_layout 0 21 0 0 V
 osd_layout 0 22 14 11 V
-osd_layout 0 23 2 10 V
+osd_layout 0 23 5 0 V
 osd_layout 0 24 2 5 H
 osd_layout 0 25 23 5 H
-osd_layout 0 26 6 4 V
+osd_layout 0 26 8 5 V
 osd_layout 0 27 3 5 H
 osd_layout 0 28 1 0 H
 osd_layout 0 29 23 12 H
@@ -1132,9 +1132,9 @@ set throttle_tilt_comp_str = 0
 set name = Tango
 set mode_range_logic_operator = OR
 set stats = ON
-set stats_total_time = 132604
-set stats_total_dist = 2536309
-set stats_total_energy = 5629515
+set stats_total_time = 142388
+set stats_total_dist = 2708746
+set stats_total_energy = 6020847
 set tz_offset = 0
 set tz_automatic_dst = OFF
 set display_force_sw_blink = OFF

@@ -1,4 +1,7 @@
-dump
+
+Entering CLI Mode, type 'exit' to return, or 'help'
+
+# dump
 
 # version
 # INAV/MATEKF405TE_SD 4.1.0 Mar 24 2022 / 21:29:43 (eaa27a45)
@@ -29,7 +32,7 @@ smix 6 8 14 -100 40 -1
 
 # servo
 servo 0 1000 2000 1500 100
-servo 1 1000 2000 1535 100
+servo 1 690 2345 1535 100
 servo 2 1000 2000 1500 100
 servo 3 1000 2000 1500 100
 servo 4 1000 2000 1470 100
@@ -186,7 +189,7 @@ serial 20 1 115200 115200 0 115200
 serial 0 1 115200 115200 0 115200
 serial 1 0 115200 115200 0 115200
 serial 2 64 115200 115200 0 115200
-serial 3 2048 115200 115200 0 115200
+serial 3 2097152 115200 115200 0 115200
 serial 4 2 115200 115200 0 115200
 serial 5 0 115200 115200 0 115200
 
@@ -508,9 +511,9 @@ osd_layout 0 9 22 3 H
 osd_layout 0 10 21 1 H
 osd_layout 0 11 13 15 V
 osd_layout 0 12 4 15 V
-osd_layout 0 13 20 4 V
+osd_layout 0 13 21 6 V
 osd_layout 0 14 18 15 V
-osd_layout 0 15 17 5 V
+osd_layout 0 15 18 7 V
 osd_layout 0 16 2 10 H
 osd_layout 0 17 2 11 H
 osd_layout 0 18 2 12 H
@@ -521,7 +524,7 @@ osd_layout 0 22 14 11 V
 osd_layout 0 23 2 10 V
 osd_layout 0 24 2 11 V
 osd_layout 0 25 23 5 H
-osd_layout 0 26 6 4 V
+osd_layout 0 26 7 6 V
 osd_layout 0 27 3 5 H
 osd_layout 0 28 1 0 H
 osd_layout 0 29 23 12 H
@@ -1246,7 +1249,7 @@ set nav_rth_alt_control_override = OFF
 set nav_rth_abort_threshold = 50000
 set nav_max_terrain_follow_alt = 100
 set nav_max_altitude = 0
-set nav_rth_altitude = 8000
+set nav_rth_altitude = 5000
 set nav_rth_home_altitude = 0
 set safehome_max_distance = 20000
 set safehome_usage_mode = RTH
@@ -1284,7 +1287,7 @@ set nav_fw_launch_end_time = 3000
 set nav_fw_launch_min_time = 0
 set nav_fw_launch_timeout = 20000
 set nav_fw_launch_max_altitude = 0
-set nav_fw_launch_climb_angle = 25
+set nav_fw_launch_climb_angle = 22
 set nav_fw_cruise_yaw_rate = 20
 set nav_fw_allow_manual_thr_increase = OFF
 set nav_use_fw_yaw_control = OFF
@@ -1393,12 +1396,12 @@ set osd_speed_source = GROUND
 set i2c_speed = 400KHZ
 set debug_mode = NONE
 set throttle_tilt_comp_str = 0
-set name = 
+set name = Tango
 set mode_range_logic_operator = OR
-set stats = OFF
-set stats_total_time = 0
-set stats_total_dist = 0
-set stats_total_energy = 0
+set stats = ON
+set stats_total_time = 1111
+set stats_total_dist = 12596
+set stats_total_energy = 26407
 set tz_offset = 0
 set tz_automatic_dst = OFF
 set display_force_sw_blink = OFF
@@ -1452,18 +1455,18 @@ set mc_cd_yaw = 60
 set mc_p_level = 20
 set mc_i_level = 15
 set mc_d_level = 75
-set fw_p_pitch = 15
-set fw_i_pitch = 5
+set fw_p_pitch = 11
+set fw_i_pitch = 24
 set fw_d_pitch = 5
-set fw_ff_pitch = 70
-set fw_p_roll = 15
-set fw_i_roll = 5
+set fw_ff_pitch = 113
+set fw_p_roll = 8
+set fw_i_roll = 17
 set fw_d_roll = 7
-set fw_ff_roll = 50
-set fw_p_yaw = 15
-set fw_i_yaw = 5
+set fw_ff_roll = 78
+set fw_p_yaw = 7
+set fw_i_yaw = 16
 set fw_d_yaw = 5
-set fw_ff_yaw = 100
+set fw_ff_yaw = 73
 set fw_p_level = 20
 set fw_i_level = 5
 set fw_d_level = 75
@@ -1535,9 +1538,9 @@ set tpa_breakpoint = 1500
 set fw_tpa_time_constant = 0
 set rc_expo = 30
 set rc_yaw_expo = 30
-set roll_rate = 18
-set pitch_rate = 9
-set yaw_rate = 3
+set roll_rate = 36
+set pitch_rate = 13
+set yaw_rate = 10
 set manual_rc_expo = 35
 set manual_rc_yaw_expo = 20
 set manual_roll_rate = 100
