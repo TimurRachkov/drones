@@ -129,11 +129,14 @@ feature -FW_AUTOTRIM
 feature VBAT
 feature TX_PROF_SEL
 feature MOTOR_STOP
+feature GPS
 feature TELEMETRY
 feature CURRENT_METER
 feature BLACKBOX
 feature AIRMODE
+feature PWM_OUTPUT_ENABLE
 feature OSD
+feature FW_LAUNCH
 
 # beeper
 beeper RUNTIME_CALIBRATION
@@ -178,10 +181,10 @@ map AETR
 # serial
 serial 20 1 115200 115200 0 115200
 serial 0 1 115200 115200 0 115200
-serial 1 64 115200 115200 0 115200
-serial 2 0 115200 115200 0 115200
-serial 3 0 115200 115200 0 115200
-serial 4 0 115200 115200 0 115200
+serial 1 0 115200 115200 0 115200
+serial 2 64 115200 115200 0 115200
+serial 3 2097152 115200 115200 0 115200
+serial 4 2 115200 115200 0 115200
 serial 5 0 115200 115200 0 115200
 
 # led
@@ -286,18 +289,18 @@ mode_color 6 9 0
 mode_color 6 10 0
 
 # aux
-aux 0 0 0 900 900
-aux 1 0 0 900 900
-aux 2 0 0 900 900
-aux 3 0 0 900 900
-aux 4 0 0 900 900
-aux 5 0 0 900 900
-aux 6 0 0 900 900
-aux 7 0 0 900 900
-aux 8 0 0 900 900
-aux 9 0 0 900 900
-aux 10 0 0 900 900
-aux 11 0 0 900 900
+aux 0 0 0 1500 2100
+aux 1 1 5 1300 1700
+aux 2 12 4 1300 1700
+aux 3 53 5 1700 2100
+aux 4 11 3 1700 2100
+aux 5 10 3 1300 1700
+aux 6 3 5 1700 2100
+aux 7 21 4 1700 2100
+aux 8 34 6 1700 2100
+aux 9 42 4 1700 2100
+aux 10 13 1 1500 2100
+aux 11 30 1 1500 2100
 aux 12 0 0 900 900
 aux 13 0 0 900 900
 aux 14 0 0 900 900
@@ -489,52 +492,52 @@ wp 118 0 0 0 0 0 0 0 0
 wp 119 0 0 0 0 0 0 0 0
 
 # osd_layout
-osd_layout 0 0 23 0 V
-osd_layout 0 1 12 0 V
-osd_layout 0 2 0 0 H
+osd_layout 0 0 18 1 H
+osd_layout 0 1 11 15 H
+osd_layout 0 2 0 0 V
 osd_layout 0 3 8 6 H
-osd_layout 0 4 8 6 H
+osd_layout 0 4 8 6 V
 osd_layout 0 5 23 8 H
-osd_layout 0 6 23 9 H
-osd_layout 0 7 13 12 V
-osd_layout 0 8 20 2 H
-osd_layout 0 9 1 2 V
-osd_layout 0 10 8 6 H
-osd_layout 0 11 2 3 V
-osd_layout 0 12 1 4 V
-osd_layout 0 13 23 1 H
-osd_layout 0 14 0 11 V
-osd_layout 0 15 1 0 V
+osd_layout 0 6 1 0 H
+osd_layout 0 7 7 15 V
+osd_layout 0 8 13 15 V
+osd_layout 0 9 22 3 H
+osd_layout 0 10 21 1 H
+osd_layout 0 11 13 15 V
+osd_layout 0 12 4 15 V
+osd_layout 0 13 20 6 V
+osd_layout 0 14 18 15 V
+osd_layout 0 15 18 7 V
 osd_layout 0 16 2 10 H
 osd_layout 0 17 2 11 H
 osd_layout 0 18 2 12 H
 osd_layout 0 19 15 1 H
-osd_layout 0 20 18 12 H
-osd_layout 0 21 0 12 H
-osd_layout 0 22 14 11 H
-osd_layout 0 23 1 1 H
-osd_layout 0 24 12 2 H
+osd_layout 0 20 19 0 V
+osd_layout 0 21 0 0 V
+osd_layout 0 22 14 11 V
+osd_layout 0 23 6 0 V
+osd_layout 0 24 2 11 V
 osd_layout 0 25 23 5 H
-osd_layout 0 26 24 7 H
+osd_layout 0 26 9 7 V
 osd_layout 0 27 3 5 H
-osd_layout 0 28 23 11 V
+osd_layout 0 28 1 0 H
 osd_layout 0 29 23 12 H
 osd_layout 0 30 1 13 V
-osd_layout 0 31 0 10 H
-osd_layout 0 32 12 1 H
-osd_layout 0 33 6 2 H
-osd_layout 0 34 18 2 H
-osd_layout 0 35 1 5 H
+osd_layout 0 31 3 5 H
+osd_layout 0 32 9 15 V
+osd_layout 0 33 23 11 V
+osd_layout 0 34 10 15 H
+osd_layout 0 35 23 14 V
 osd_layout 0 36 1 5 H
 osd_layout 0 37 1 6 H
 osd_layout 0 38 1 7 H
 osd_layout 0 39 1 5 H
 osd_layout 0 40 1 2 H
-osd_layout 0 41 1 8 H
-osd_layout 0 42 1 7 H
+osd_layout 0 41 19 8 V
+osd_layout 0 42 8 8 V
 osd_layout 0 43 0 0 H
 osd_layout 0 44 0 0 H
-osd_layout 0 45 0 0 H
+osd_layout 0 45 0 0 V
 osd_layout 0 46 3 6 H
 osd_layout 0 47 3 7 H
 osd_layout 0 48 23 7 H
@@ -589,19 +592,19 @@ osd_layout 0 96 0 0 H
 osd_layout 0 97 0 12 H
 osd_layout 0 98 0 0 H
 osd_layout 0 99 0 0 H
-osd_layout 0 100 12 4 H
+osd_layout 0 100 12 3 H
 osd_layout 0 101 12 5 H
 osd_layout 0 102 12 6 H
 osd_layout 0 103 12 7 H
 osd_layout 0 104 0 0 H
-osd_layout 0 105 3 5 H
+osd_layout 0 105 24 0 H
 osd_layout 0 106 1 2 H
-osd_layout 0 107 1 3 H
+osd_layout 0 107 17 14 H
 osd_layout 0 108 2 12 H
-osd_layout 0 109 23 12 H
-osd_layout 0 110 23 11 H
-osd_layout 0 111 24 9 H
-osd_layout 0 112 24 10 H
+osd_layout 0 109 24 12 H
+osd_layout 0 110 24 11 H
+osd_layout 0 111 25 9 H
+osd_layout 0 112 25 10 H
 osd_layout 0 113 1 1 H
 osd_layout 0 114 1 2 H
 osd_layout 0 115 1 3 H
@@ -1112,7 +1115,7 @@ set failsafe_delay = 5
 set failsafe_recovery_delay = 5
 set failsafe_off_delay = 200
 set failsafe_throttle_low_delay = 0
-set failsafe_procedure = LAND
+set failsafe_procedure = RTH
 set failsafe_stick_threshold = 50
 set failsafe_fw_roll_angle = -200
 set failsafe_fw_pitch_angle = 100
@@ -1273,12 +1276,12 @@ set nav_fw_launch_max_angle = 45
 set nav_fw_launch_detect_time = 40
 set nav_fw_launch_idle_motor_delay = 0
 set nav_fw_launch_motor_delay = 500
-set nav_fw_launch_spinup_time = 100
+set nav_fw_launch_spinup_time = 1000
 set nav_fw_launch_end_time = 3000
 set nav_fw_launch_min_time = 0
-set nav_fw_launch_timeout = 5000
+set nav_fw_launch_timeout = 20000
 set nav_fw_launch_max_altitude = 0
-set nav_fw_launch_climb_angle = 18
+set nav_fw_launch_climb_angle = 22
 set nav_fw_cruise_yaw_rate = 20
 set nav_fw_allow_manual_thr_increase = OFF
 set nav_use_fw_yaw_control = OFF
@@ -1387,7 +1390,7 @@ set osd_speed_source = GROUND
 set i2c_speed = 400KHZ
 set debug_mode = NONE
 set throttle_tilt_comp_str = 0
-set name = 
+set name = Tango
 set mode_range_logic_operator = OR
 set stats = OFF
 set stats_total_time = 0
