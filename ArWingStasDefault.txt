@@ -133,7 +133,9 @@ feature SOFTSERIAL
 feature TELEMETRY
 feature CURRENT_METER
 feature AIRMODE
+feature PWM_OUTPUT_ENABLE
 feature OSD
+feature FW_LAUNCH
 
 # beeper
 beeper RUNTIME_CALIBRATION
@@ -179,7 +181,7 @@ map AETR
 serial 20 1 115200 115200 0 115200
 serial 0 1 115200 115200 0 115200
 serial 1 64 115200 115200 0 115200
-serial 30 0 115200 115200 0 115200
+serial 30 2048 115200 115200 0 115200
 serial 31 0 115200 115200 0 115200
 
 # led
@@ -487,52 +489,52 @@ wp 118 0 0 0 0 0 0 0 0
 wp 119 0 0 0 0 0 0 0 0
 
 # osd_layout
-osd_layout 0 0 23 0 V
-osd_layout 0 1 12 0 V
-osd_layout 0 2 0 0 H
-osd_layout 0 3 8 6 H
-osd_layout 0 4 8 6 H
+osd_layout 0 0 18 1 H
+osd_layout 0 1 12 14 V
+osd_layout 0 2 0 0 V
+osd_layout 0 3 8 6 V
+osd_layout 0 4 8 6 V
 osd_layout 0 5 23 8 H
-osd_layout 0 6 23 9 H
-osd_layout 0 7 13 12 V
-osd_layout 0 8 20 2 H
-osd_layout 0 9 1 2 V
-osd_layout 0 10 8 6 H
-osd_layout 0 11 2 3 V
-osd_layout 0 12 1 4 V
-osd_layout 0 13 23 1 H
-osd_layout 0 14 0 11 V
-osd_layout 0 15 1 0 V
+osd_layout 0 6 1 0 H
+osd_layout 0 7 1 0 V
+osd_layout 0 8 9 15 H
+osd_layout 0 9 22 3 H
+osd_layout 0 10 21 1 H
+osd_layout 0 11 23 14 V
+osd_layout 0 12 2 14 V
+osd_layout 0 13 24 5 V
+osd_layout 0 14 3 6 V
+osd_layout 0 15 24 6 V
 osd_layout 0 16 2 10 H
 osd_layout 0 17 2 11 H
 osd_layout 0 18 2 12 H
 osd_layout 0 19 15 1 H
-osd_layout 0 20 18 12 H
-osd_layout 0 21 0 12 H
-osd_layout 0 22 14 11 H
-osd_layout 0 23 1 1 H
-osd_layout 0 24 12 2 H
-osd_layout 0 25 23 5 H
-osd_layout 0 26 24 7 H
+osd_layout 0 20 18 0 V
+osd_layout 0 21 7 0 V
+osd_layout 0 22 14 11 V
+osd_layout 0 23 2 10 V
+osd_layout 0 24 5 15 V
+osd_layout 0 25 23 5 V
+osd_layout 0 26 24 7 V
 osd_layout 0 27 3 5 H
-osd_layout 0 28 23 11 V
+osd_layout 0 28 1 0 H
 osd_layout 0 29 23 12 H
 osd_layout 0 30 1 13 V
-osd_layout 0 31 0 10 H
-osd_layout 0 32 12 1 H
-osd_layout 0 33 6 2 H
-osd_layout 0 34 18 2 H
-osd_layout 0 35 1 5 H
+osd_layout 0 31 3 5 H
+osd_layout 0 32 7 14 V
+osd_layout 0 33 22 12 V
+osd_layout 0 34 10 15 V
+osd_layout 0 35 18 14 V
 osd_layout 0 36 1 5 H
 osd_layout 0 37 1 6 H
 osd_layout 0 38 1 7 H
 osd_layout 0 39 1 5 H
 osd_layout 0 40 1 2 H
-osd_layout 0 41 1 8 H
-osd_layout 0 42 1 7 H
+osd_layout 0 41 1 0 H
+osd_layout 0 42 7 1 H
 osd_layout 0 43 0 0 H
 osd_layout 0 44 0 0 H
-osd_layout 0 45 0 0 H
+osd_layout 0 45 0 0 V
 osd_layout 0 46 3 6 H
 osd_layout 0 47 3 7 H
 osd_layout 0 48 23 7 H
@@ -587,19 +589,19 @@ osd_layout 0 96 0 0 H
 osd_layout 0 97 0 12 H
 osd_layout 0 98 0 0 H
 osd_layout 0 99 0 0 H
-osd_layout 0 100 12 4 H
+osd_layout 0 100 12 3 H
 osd_layout 0 101 12 5 H
 osd_layout 0 102 12 6 H
 osd_layout 0 103 12 7 H
 osd_layout 0 104 0 0 H
-osd_layout 0 105 3 5 H
+osd_layout 0 105 24 0 H
 osd_layout 0 106 1 2 H
-osd_layout 0 107 1 3 H
+osd_layout 0 107 17 14 H
 osd_layout 0 108 2 12 H
-osd_layout 0 109 23 12 H
-osd_layout 0 110 23 11 H
-osd_layout 0 111 24 9 H
-osd_layout 0 112 24 10 H
+osd_layout 0 109 24 12 H
+osd_layout 0 110 24 11 H
+osd_layout 0 111 25 9 H
+osd_layout 0 112 25 10 H
 osd_layout 0 113 1 1 H
 osd_layout 0 114 1 2 H
 osd_layout 0 115 1 3 H
@@ -617,25 +619,25 @@ osd_layout 0 126 0 0 H
 osd_layout 0 127 0 0 H
 osd_layout 0 128 0 0 H
 osd_layout 0 129 0 10 H
-osd_layout 1 0 23 0 H
-osd_layout 1 1 12 0 H
+osd_layout 1 0 23 0 V
+osd_layout 1 1 12 0 V
 osd_layout 1 2 0 0 H
 osd_layout 1 3 8 6 H
 osd_layout 1 4 8 6 H
 osd_layout 1 5 23 8 H
 osd_layout 1 6 23 9 H
-osd_layout 1 7 13 12 H
+osd_layout 1 7 13 14 V
 osd_layout 1 8 20 2 H
 osd_layout 1 9 1 2 H
 osd_layout 1 10 8 6 H
 osd_layout 1 11 2 3 H
 osd_layout 1 12 1 4 H
-osd_layout 1 13 23 1 H
+osd_layout 1 13 23 8 V
 osd_layout 1 14 0 11 H
-osd_layout 1 15 1 0 H
-osd_layout 1 16 2 10 H
-osd_layout 1 17 2 11 H
-osd_layout 1 18 2 12 H
+osd_layout 1 15 23 7 V
+osd_layout 1 16 2 8 V
+osd_layout 1 17 2 7 V
+osd_layout 1 18 2 9 V
 osd_layout 1 19 15 1 H
 osd_layout 1 20 18 12 H
 osd_layout 1 21 0 12 H
@@ -647,9 +649,9 @@ osd_layout 1 26 24 7 H
 osd_layout 1 27 3 5 H
 osd_layout 1 28 23 11 H
 osd_layout 1 29 23 12 H
-osd_layout 1 30 1 13 H
+osd_layout 1 30 2 12 V
 osd_layout 1 31 0 10 H
-osd_layout 1 32 12 1 H
+osd_layout 1 32 12 1 V
 osd_layout 1 33 6 2 H
 osd_layout 1 34 18 2 H
 osd_layout 1 35 1 5 H
@@ -679,8 +681,8 @@ osd_layout 1 58 2 12 H
 osd_layout 1 59 2 12 H
 osd_layout 1 60 2 12 H
 osd_layout 1 61 2 12 H
-osd_layout 1 62 2 10 H
-osd_layout 1 63 2 11 H
+osd_layout 1 62 3 3 V
+osd_layout 1 63 3 4 V
 osd_layout 1 64 2 12 H
 osd_layout 1 65 2 12 H
 osd_layout 1 66 2 12 H
@@ -726,10 +728,10 @@ osd_layout 1 105 3 5 H
 osd_layout 1 106 1 2 H
 osd_layout 1 107 1 3 H
 osd_layout 1 108 2 12 H
-osd_layout 1 109 23 12 H
-osd_layout 1 110 23 11 H
-osd_layout 1 111 24 9 H
-osd_layout 1 112 24 10 H
+osd_layout 1 109 24 12 H
+osd_layout 1 110 24 11 H
+osd_layout 1 111 25 9 H
+osd_layout 1 112 25 10 H
 osd_layout 1 113 1 1 H
 osd_layout 1 114 1 2 H
 osd_layout 1 115 1 3 H
@@ -856,10 +858,10 @@ osd_layout 2 105 3 5 H
 osd_layout 2 106 1 2 H
 osd_layout 2 107 1 3 H
 osd_layout 2 108 2 12 H
-osd_layout 2 109 23 12 H
-osd_layout 2 110 23 11 H
-osd_layout 2 111 24 9 H
-osd_layout 2 112 24 10 H
+osd_layout 2 109 24 12 H
+osd_layout 2 110 24 11 H
+osd_layout 2 111 25 9 H
+osd_layout 2 112 25 10 H
 osd_layout 2 113 1 1 H
 osd_layout 2 114 1 2 H
 osd_layout 2 115 1 3 H
@@ -986,10 +988,10 @@ osd_layout 3 105 3 5 H
 osd_layout 3 106 1 2 H
 osd_layout 3 107 1 3 H
 osd_layout 3 108 2 12 H
-osd_layout 3 109 23 12 H
-osd_layout 3 110 23 11 H
-osd_layout 3 111 24 9 H
-osd_layout 3 112 24 10 H
+osd_layout 3 109 24 12 H
+osd_layout 3 110 24 11 H
+osd_layout 3 111 25 9 H
+osd_layout 3 112 25 10 H
 osd_layout 3 113 1 1 H
 osd_layout 3 114 1 2 H
 osd_layout 3 115 1 3 H
@@ -1109,7 +1111,7 @@ set failsafe_delay = 5
 set failsafe_recovery_delay = 5
 set failsafe_off_delay = 200
 set failsafe_throttle_low_delay = 0
-set failsafe_procedure = LAND
+set failsafe_procedure = RTH
 set failsafe_stick_threshold = 50
 set failsafe_fw_roll_angle = -200
 set failsafe_fw_pitch_angle = 100
@@ -1153,7 +1155,7 @@ set small_angle = 180
 set imu_acc_ignore_rate = 9
 set imu_acc_ignore_slope = 5
 set fixed_wing_auto_arm = OFF
-set disarm_kill_switch = ON
+set disarm_kill_switch = OFF
 set switch_disarm_delay = 250
 set prearm_timeout = 10000
 set applied_defaults = 3
@@ -1202,13 +1204,13 @@ set inav_w_xyz_acc_p =  1.000
 set inav_w_acc_bias =  0.010
 set inav_max_eph_epv =  1000.000
 set inav_baro_epv =  100.000
-set nav_disarm_on_landing = OFF
+set nav_disarm_on_landing = ON
 set nav_use_midthr_for_althold = OFF
 set nav_extra_arming_safety = ON
 set nav_user_control_mode = ATTI
 set nav_position_timeout = 5
 set nav_wp_load_on_boot = OFF
-set nav_wp_radius = 5000
+set nav_wp_radius = 3000
 set nav_wp_safe_distance = 10000
 set nav_wp_mission_restart = RESUME
 set nav_wp_multi_mission_index = 1
@@ -1226,13 +1228,13 @@ set nav_min_rth_distance = 500
 set nav_overrides_motor_stop = ALL_NAV
 set nav_fw_soaring_motor_stop = OFF
 set nav_fw_soaring_pitch_deadband = 5
-set nav_rth_climb_first = ON
+set nav_rth_climb_first = OFF
 set nav_rth_climb_first_stage_mode = AT_LEAST
 set nav_rth_climb_first_stage_altitude = 0
 set nav_rth_climb_ignore_emerg = OFF
 set nav_rth_tail_first = OFF
 set nav_rth_allow_landing = FS_ONLY
-set nav_rth_alt_mode = AT_LEAST
+set nav_rth_alt_mode = AT_LEAST_LINEAR_DESCENT
 set nav_rth_alt_control_override = OFF
 set nav_rth_abort_threshold = 50000
 set nav_max_terrain_follow_alt = 100
@@ -1262,18 +1264,18 @@ set nav_fw_pitch2thr_smoothing = 6
 set nav_fw_pitch2thr_threshold = 50
 set nav_fw_loiter_radius = 7500
 set nav_fw_cruise_speed = 0
-set nav_fw_control_smoothness = 2
+set nav_fw_control_smoothness = 3
 set nav_fw_land_dive_angle = 2
 set nav_fw_launch_velocity = 300
 set nav_fw_launch_accel = 1863
-set nav_fw_launch_max_angle = 45
+set nav_fw_launch_max_angle = 180
 set nav_fw_launch_detect_time = 40
 set nav_fw_launch_idle_motor_delay = 0
 set nav_fw_launch_motor_delay = 500
-set nav_fw_launch_spinup_time = 100
+set nav_fw_launch_spinup_time = 1000
 set nav_fw_launch_end_time = 3000
 set nav_fw_launch_min_time = 0
-set nav_fw_launch_timeout = 5000
+set nav_fw_launch_timeout = 20000
 set nav_fw_launch_max_altitude = 0
 set nav_fw_launch_climb_angle = 18
 set nav_fw_cruise_yaw_rate = 20
@@ -1318,9 +1320,9 @@ set osd_stats_energy_unit = MAH
 set osd_stats_min_voltage_unit = BATTERY
 set osd_stats_page_auto_swap_time = 3
 set osd_rssi_alarm = 20
-set osd_time_alarm = 10
-set osd_alt_alarm = 100
-set osd_dist_alarm = 1000
+set osd_time_alarm = 60
+set osd_alt_alarm = 10000
+set osd_dist_alarm = 10000
 set osd_neg_alt_alarm = 5
 set osd_current_alarm = 0
 set osd_gforce_alarm =  5.000
@@ -1396,10 +1398,10 @@ set display_force_sw_blink = OFF
 set vtx_halfduplex = ON
 set vtx_smartaudio_early_akk_workaround = ON
 set vtx_smartaudio_alternate_softserial_method = ON
-set vtx_band = 4
-set vtx_channel = 1
+set vtx_band = 5
+set vtx_channel = 8
 set vtx_power = 1
-set vtx_low_power_disarm = OFF
+set vtx_low_power_disarm = ON
 set vtx_pit_mode_chan = 1
 set vtx_max_power_override = 0
 set pinio_box1 = 47
@@ -1443,14 +1445,14 @@ set mc_cd_yaw = 60
 set mc_p_level = 20
 set mc_i_level = 15
 set mc_d_level = 75
-set fw_p_pitch = 15
-set fw_i_pitch = 5
+set fw_p_pitch = 6
+set fw_i_pitch = 14
 set fw_d_pitch = 5
-set fw_ff_pitch = 70
-set fw_p_roll = 15
-set fw_i_roll = 3
+set fw_ff_pitch = 64
+set fw_p_roll = 3
+set fw_i_roll = 6
 set fw_d_roll = 7
-set fw_ff_roll = 50
+set fw_ff_roll = 26
 set fw_p_yaw = 20
 set fw_i_yaw = 0
 set fw_d_yaw = 0
@@ -1527,8 +1529,8 @@ set fw_tpa_time_constant = 0
 set rc_expo = 30
 set rc_yaw_expo = 30
 set roll_rate = 18
-set pitch_rate = 9
-set yaw_rate = 3
+set pitch_rate = 15
+set yaw_rate = 9
 set manual_rc_expo = 35
 set manual_rc_yaw_expo = 20
 set manual_roll_rate = 100
