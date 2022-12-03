@@ -19,10 +19,10 @@ mmix 1  1.000  0.000  0.000  0.000
 # servo mix
 smix reset
 
-smix 0 1 0 50 0 -1
+smix 0 1 0 -50 0 -1
 smix 1 1 1 50 0 -1
-smix 2 2 0 -50 0 -1
-smix 3 2 1 50 0 -1
+smix 2 3 1 -50 0 -1
+smix 3 3 0 -50 0 -1
 
 # servo
 servo 0 1000 2000 1500 100
@@ -1159,7 +1159,7 @@ set small_angle = 180
 set imu_acc_ignore_rate = 9
 set imu_acc_ignore_slope = 5
 set fixed_wing_auto_arm = OFF
-set disarm_kill_switch = ON
+set disarm_kill_switch = OFF
 set switch_disarm_delay = 250
 set prearm_timeout = 10000
 set applied_defaults = 3
@@ -1210,7 +1210,7 @@ set inav_max_eph_epv =  1000.000
 set inav_baro_epv =  100.000
 set nav_disarm_on_landing = OFF
 set nav_use_midthr_for_althold = OFF
-set nav_extra_arming_safety = ON
+set nav_extra_arming_safety = OFF
 set nav_user_control_mode = ATTI
 set nav_position_timeout = 5
 set nav_wp_load_on_boot = OFF
@@ -1268,7 +1268,7 @@ set nav_fw_pitch2thr_smoothing = 6
 set nav_fw_pitch2thr_threshold = 50
 set nav_fw_loiter_radius = 7500
 set nav_fw_cruise_speed = 0
-set nav_fw_control_smoothness = 2
+set nav_fw_control_smoothness = 5
 set nav_fw_land_dive_angle = 2
 set nav_fw_launch_velocity = 300
 set nav_fw_launch_accel = 1863
@@ -1392,10 +1392,10 @@ set debug_mode = NONE
 set throttle_tilt_comp_str = 0
 set name = Tango
 set mode_range_logic_operator = OR
-set stats = OFF
-set stats_total_time = 0
-set stats_total_dist = 0
-set stats_total_energy = 0
+set stats = ON
+set stats_total_time = 650
+set stats_total_dist = 17514
+set stats_total_energy = 56492
 set tz_offset = 0
 set tz_automatic_dst = OFF
 set display_force_sw_blink = OFF
@@ -1461,7 +1461,7 @@ set fw_p_yaw = 20
 set fw_i_yaw = 0
 set fw_d_yaw = 0
 set fw_ff_yaw = 100
-set fw_p_level = 20
+set fw_p_level = 30
 set fw_i_level = 5
 set fw_d_level = 75
 set max_angle_inclination_rll = 550
@@ -1532,8 +1532,8 @@ set tpa_breakpoint = 1500
 set fw_tpa_time_constant = 0
 set rc_expo = 30
 set rc_yaw_expo = 30
-set roll_rate = 18
-set pitch_rate = 9
+set roll_rate = 25
+set pitch_rate = 14
 set yaw_rate = 3
 set manual_rc_expo = 35
 set manual_rc_yaw_expo = 20
@@ -1551,7 +1551,7 @@ set rate_dynamics_end_weight = 0
 # battery_profile
 battery_profile 1
 
-set bat_cells = 0
+set bat_cells = 6
 set vbat_cell_detect_voltage = 425
 set vbat_max_cell_voltage = 420
 set vbat_min_cell_voltage = 330
