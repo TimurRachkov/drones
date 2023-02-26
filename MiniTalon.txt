@@ -1,7 +1,4 @@
-
-Entering CLI Mode, type 'exit' to return, or 'help'
-
-# dump
+dump
 
 # version
 # INAV/MATEKF405SE 2.5.1 Jun 16 2020 / 12:50:26 (098a574b3)
@@ -1135,9 +1132,9 @@ set throttle_tilt_comp_str = 0
 set name = Tango
 set mode_range_logic_operator = OR
 set stats = ON
-set stats_total_time = 162187
-set stats_total_dist = 3053132
-set stats_total_energy = 6801334
+set stats_total_time = 168785
+set stats_total_dist = 3189042
+set stats_total_energy = 7216498
 set tz_offset = 0
 set tz_automatic_dst = OFF
 set display_force_sw_blink = OFF
@@ -1171,11 +1168,11 @@ set fw_p_pitch = 10
 set fw_i_pitch = 8
 set fw_ff_pitch = 50
 set fw_p_roll = 5
-set fw_i_roll = 11
-set fw_ff_roll = 51
+set fw_i_roll = 10
+set fw_ff_roll = 50
 set fw_p_yaw = 4
 set fw_i_yaw = 8
-set fw_ff_yaw = 39
+set fw_ff_yaw = 40
 set fw_p_level = 20
 set fw_i_level = 5
 set fw_d_level = 75
