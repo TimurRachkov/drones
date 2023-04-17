@@ -27,7 +27,7 @@ smix 4 1 10 100 110 -1
 
 # servo
 servo 0 1000 2000 1500 100
-servo 1 620 2325 1500 100
+servo 1 620 2325 1460 100
 servo 2 1000 2000 1500 100
 servo 3 1000 2000 1500 100
 servo 4 1000 2000 1500 100
@@ -1089,10 +1089,10 @@ set dynamic_gyro_notch_min_hz = 30
 set setpoint_kalman_enabled = ON
 set setpoint_kalman_q = 100
 set init_gyro_cal = ON
-set gyro_zero_x = -38
+set gyro_zero_x = -39
 set gyro_zero_y = -25
-set gyro_zero_z = 19
-set ins_gravity_cmss =  988.536
+set gyro_zero_z = 18
+set ins_gravity_cmss =  982.100
 set vbat_adc_channel = 1
 set rssi_adc_channel = 3
 set current_adc_channel = 2
