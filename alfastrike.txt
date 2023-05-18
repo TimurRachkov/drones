@@ -1,7 +1,4 @@
-
-Entering CLI Mode, type 'exit' to return, or 'help'
-
-# dump
+dump
 
 # version
 # INAV/MATEKF405SE 5.1.0 Aug 19 2022 / 12:05:31 (76f22b25)
@@ -23,9 +20,9 @@ mmix 1  1.000  0.000  0.000  0.000
 smix reset
 
 smix 0 2 0 -50 0 -1
-smix 1 2 1 50 0 -1
+smix 1 2 1 -50 0 -1
 smix 2 3 0 -50 0 -1
-smix 3 3 1 -50 0 -1
+smix 3 3 1 50 0 -1
 smix 4 1 10 100 110 -1
 
 # servo
@@ -1092,10 +1089,10 @@ set dynamic_gyro_notch_min_hz = 30
 set setpoint_kalman_enabled = ON
 set setpoint_kalman_q = 100
 set init_gyro_cal = ON
-set gyro_zero_x = -39
+set gyro_zero_x = -40
 set gyro_zero_y = -25
-set gyro_zero_z = 18
-set ins_gravity_cmss =  982.689
+set gyro_zero_z = 20
+set ins_gravity_cmss =  974.573
 set vbat_adc_channel = 1
 set rssi_adc_channel = 3
 set current_adc_channel = 2
@@ -1190,7 +1187,7 @@ set failsafe_min_distance_procedure = DROP
 set failsafe_mission = ON
 set align_board_roll = 0
 set align_board_pitch = 0
-set align_board_yaw = 0
+set align_board_yaw = 1800
 set vbat_meter_type = ADC
 set vbat_scale = 1100
 set current_meter_scale = 317
@@ -1475,9 +1472,9 @@ set throttle_tilt_comp_str = 0
 set name = Tango
 set mode_range_logic_operator = OR
 set stats = ON
-set stats_total_time = 48
-set stats_total_dist = 0
-set stats_total_energy = 196
+set stats_total_time = 4184
+set stats_total_dist = 109705
+set stats_total_energy = 286438
 set tz_offset = 0
 set tz_automatic_dst = OFF
 set display_force_sw_blink = OFF
